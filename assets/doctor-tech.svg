@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="doc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E241E"/>
+      <stop offset="50%" stop-color="#081813"/>
+      <stop offset="100%" stop-color="#050F0C"/>
+    </linearGradient>
+    <linearGradient id="holo-screen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A36A" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#5EEAD4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C5A36A" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="screen-glow" cx="60%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#C5A36A" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#2D6B5A" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#doc-bg)"/>
+  
+  <!-- Subtle futuristic medical laboratory grid -->
+  <g opacity="0.12">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#C5A36A"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#C5A36A"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#C5A36A"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#C5A36A"/>
+    <line x1="0" y1="500" x2="800" y2="500" stroke="#C5A36A"/>
+    <line x1="200" y1="0" x2="200" y2="600" stroke="#C5A36A"/>
+    <line x1="400" y1="0" x2="400" y2="600" stroke="#C5A36A"/>
+    <line x1="600" y1="0" x2="600" y2="600" stroke="#C5A36A"/>
+  </g>
+
+  <!-- High-Tech Diagnostic Curved Monitors (Right & Center) -->
+  <rect width="800" height="600" fill="url(#screen-glow)"/>
+
+  <!-- Advanced 3D Multi-Planar Reconstruction (MPR) Display -->
+  <g transform="translate(380, 80)">
+    <!-- Monitor Bezel (Champagne Gold / Dark Carbon) -->
+    <rect x="0" y="0" width="370" height="260" rx="16" fill="#142B23" stroke="#C5A36A" stroke-width="2"/>
+    <rect x="10" y="10" width="350" height="240" rx="10" fill="#0A1813"/>
+
+    <!-- MRI / CT Brain / Vascular 3D Volume Render Scan Display -->
+    <circle cx="175" cy="120" r="75" stroke="#C5A36A" stroke-width="1.5" stroke-dasharray="3 3" fill="none"/>
+    <circle cx="175" cy="120" r="95" stroke="#2D6B5A" stroke-width="1" fill="none"/>
+    
+    <!-- Render Silhouette (Spine & Cerebrovascular) -->
+    <path d="M145,115 C135,80 150,55 175,55 C200,55 215,80 205,115 C200,135 185,150 175,175 C165,150 150,135 145,115 Z" fill="#C5A36A" opacity="0.35"/>
+    <path d="M175,55 L175,185" stroke="#FFF" stroke-width="2" stroke-dasharray="2 4"/>
+    <circle cx="175" cy="115" r="5" fill="#FFE2B8"/>
+    <circle cx="190" cy="95" r="3.5" fill="#5EEAD4"/>
+    <line x1="175" y1="115" x2="270" y2="75" stroke="#C5A36A" stroke-width="1.2"/>
+    <text x="275" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#FAF9F6">TARGET LESION: RESOLVED</text>
+    <text x="275" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#C5A36A">PRECISION: 0.12mm</text>
+
+    <!-- Scan Telemetry Data -->
+    <text x="25" y="35" font-family="monospace" font-size="10" fill="#C5A36A">3T-MRI // AXIAL T2</text>
+    <text x="25" y="50" font-family="monospace" font-size="9" fill="#98A8A2">FOV: 240mm • SLICE: 0.8mm</text>
+    <text x="25" y="235" font-family="monospace" font-size="9" fill="#5EEAD4">● REAL-TIME INTRAOPERATIVE FEED</text>
+  </g>
+
+  <!-- Secondary Lower Diagnostic Tablet / Console -->
+  <g transform="translate(420, 370)">
+    <polygon points="0,0 320,-20 340,160 20,180" fill="#142B23" stroke="#C5A36A" stroke-width="1.5"/>
+    <polygon points="12,8 308,-10 328,150 32,168" fill="#0E211A"/>
+    <!-- Waveforms and biometric gauges -->
+    <path d="M40,50 L100,50 L110,35 L120,65 L130,50 L280,50" stroke="#C5A36A" stroke-width="2" fill="none"/>
+    <path d="M40,90 L80,90 L90,80 L100,100 L110,90 L280,90" stroke="#5EEAD4" stroke-width="2" fill="none"/>
+    <text x="45" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#FAF9F6">AI PREDICTIVE INDEX: 99.8% OPTIMAL</text>
+  </g>
+
+  <!-- Specialist Doctor in Sterile Modern Medical Coat (Left Side Profile) -->
+  <g transform="translate(60, 110)">
+    <!-- Doctor Silhouette & Scrub Coat -->
+    <!-- Head & Sterile Cap -->
+    <ellipse cx="190" cy="90" rx="36" ry="42" fill="#1E4437"/>
+    <path d="M160,80 C160,50 185,45 210,50 C230,55 235,75 230,95 C220,105 180,105 160,80 Z" fill="#132F26"/>
+    <!-- Face Profile Looking Right towards holographic screens -->
+    <path d="M190,65 C215,65 228,80 230,95 C232,105 225,115 220,120 C220,130 205,140 190,140 C175,140 160,125 160,100 Z" fill="#D9BA9D"/>
+    <!-- Surgical Mask / Shield -->
+    <path d="M195,100 C225,100 235,110 235,128 C235,145 205,150 185,148 L185,120 Z" fill="#FAF9F6" stroke="#C5A36A" stroke-width="1.5"/>
+    <!-- Loupes / Precision Surgical Magnification Glasses -->
+    <rect x="210" y="85" width="28" height="14" rx="4" fill="#C5A36A"/>
+    <circle cx="238" cy="92" r="8" fill="#5EEAD4" opacity="0.8"/>
+    <line x1="180" y1="88" x2="210" y2="88" stroke="#FAF9F6" stroke-width="2"/>
+
+    <!-- Luxury Tailored White Lab / Scrub Coat -->
+    <path d="M130,165 C160,145 220,150 250,175 C275,200 295,245 305,330 L310,480 L80,480 L85,320 C90,240 105,190 130,165 Z" fill="#FAF9F6"/>
+    <!-- Coat Shadows and Lapel in Forest Green -->
+    <path d="M185,160 L185,290 L220,290 L245,185 Z" fill="#102C24" opacity="0.12"/>
+    <path d="M185,165 L225,230 L225,320 L185,320 Z" fill="#E8E2D5"/>
+    
+    <!-- Stethoscope around neck with gold earpieces -->
+    <path d="M170,160 C155,210 165,270 195,300 C210,315 235,305 240,285" stroke="#C5A36A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <circle cx="240" cy="285" r="9" fill="#102C24" stroke="#C5A36A" stroke-width="2.5"/>
+
+    <!-- Doctor's Hand Interacting with Console / Stylus -->
+    <path d="M290,320 C320,310 360,295 390,290 C405,290 415,300 405,312 C380,325 340,345 310,360 Z" fill="#D9BA9D"/>
+    <!-- Stylus / Optical Light Wand -->
+    <line x1="395" y1="285" x2="435" y2="250" stroke="#C5A36A" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="435" cy="250" r="5" fill="#FFECC7" filter="drop-shadow(0 0 6px #FFF)"/>
+  </g>
+
+  <!-- Golden Certification Tag Overlay in Corner -->
+  <g transform="translate(40, 520)">
+    <rect x="0" y="0" width="260" height="48" rx="24" fill="#102C24" stroke="#C5A36A" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="10" fill="#C5A36A"/>
+    <path d="M19,24 L23,28 L30,20" stroke="#102C24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="44" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FAF9F6">DR. ADRIAN CHEN, MD, FACS</text>
+    <text x="44" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#C5A36A">CHIEF OF ROBOTIC NEUROSURGERY</text>
+  </g>
+</svg>
+

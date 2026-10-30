@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA Health &amp; Research Sanctuary | Premium Healthcare</title>
+  <meta name="description" content="An ultra-luxury medical sanctuary combining world-renowned specialists, compassionate care, and state-of-the-art diagnostic and surgical technologies.">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23102C24'/%3E%3Cpath d='M20 8 L23 16 L31 16 L25 21 L27 29 L20 24 L13 29 L15 21 L9 16 L17 16 Z' fill='%23C5A36A'/%3E%3C/svg%3E">
+</head>
+<body class="page-fade-in">
+
+    <!-- ========================================================================
+       TOP NAVIGATION BAR — FLOATING LUXURY INSTRUMENT PANEL
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-container">
+        
+        <!-- Logo & Brand Crest -->
+        <a href="index.html" class="brand-link" aria-label="Aura Healthcare Home">
+          <div class="brand-crest">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+              <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">AURA HEALTH</span>
+            <span class="brand-sub">SANCTUARY OF MEDICINE</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">Our Approach</a></li>
+            <li><a href="specialties.html" class="nav-link">Specialties</a></li>
+            <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+            <li><a href="patient-care.html" class="nav-link">Patient Care</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Action Buttons & Mobile Hamburger -->
+        <div class="nav-actions">
+          <a href="tel:+18004829000" class="nav-phone-pill" title="24/7 Dedicated Concierge Care Line">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>(800) 482-9000</span>
+          </a>
+
+          <a href="#appointment" class="nav-cta-btn btn-hover-shine" data-open-modal="appointment">
+            <span class="cta-text-full">Book Appointment</span>
+            <span class="cta-text-short">Book</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+
+          <!-- Mobile Menu Hamburger Button -->
+          <button class="mobile-toggle" aria-label="Toggle navigation menu" id="mobile-menu-toggle">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       LUXURY SLIDE-IN MOBILE NAVIGATION DRAWER
+       ======================================================================== -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <a href="index.html" class="brand-link">
+        <div class="brand-crest">
+          <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+            <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+            <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" style="font-size: 1.15rem;">AURA HEALTH</span>
+          <span class="brand-sub" style="font-size: 8px;">SANCTUARY OF MEDICINE</span>
+        </div>
+      </a>
+      <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-nav-body">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-item active">
+          <span>Home</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="about.html" class="mobile-nav-item">
+          <span>Our Approach</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="specialties.html" class="mobile-nav-item">
+          <span>Specialties</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="facilities.html" class="mobile-nav-item">
+          <span>Facilities</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="doctors.html" class="mobile-nav-item">
+          <span>Doctors</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="patient-care.html" class="mobile-nav-item">
+          <span>Patient Care</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+          <span>Contact</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </nav>
+
+      <div class="mobile-nav-footer">
+        <a href="tel:+18004829000" class="mobile-nav-phone">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <div>
+            <div style="font-size: 10px; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">24/7 Concierge Hotline</div>
+            <div style="font-size: 14.5px; font-weight: 700; color: #FAF9F6;">(800) 482-9000</div>
+          </div>
+        </a>
+
+        <a href="#appointment" class="mobile-nav-cta btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+          <span>Schedule Consultation</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       SECTION 1 — FULL-WIDTH HERO WITH 3 AUTO-SLIDES & SLOW ZOOM-IN EFFECT
+       Text aligned to LEFT MIDDLE SIDE
+       ======================================================================== -->
+  <section class="hero-section" id="hero">
+    
+    <!-- Hero Carousel Container -->
+    <div class="hero-carousel">
+      
+      <!-- SLIDE 1: Architectural Sanctuary & Surgical Mastery -->
+      <div class="hero-slide active" data-slide="0">
+        <div class="hero-slide-bg">
+          <img 
+            src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=2400&q=85" 
+            onerror="this.onerror=null; this.src='assets/lobby-hero.svg'" 
+            alt="Panoramic ultra-premium hospital lobby featuring double-height ceiling and sculptural lighting" 
+            class="hero-zoom-img"
+          >
+        </div>
+        <div class="hero-scrim-left"></div>
+        <div class="hero-scrim-bottom"></div>
+        <div class="container hero-slide-container">
+          <div class="hero-content-left">
+            <div class="hero-badge pulse-badge">
+              <span class="hero-badge-dot"></span>
+              <span>SANCTUARY OF RESTORATIVE MEDICINE</span>
+            </div>
+            
+            <h1 class="hero-title">
+              Where Compassion Meets Architectural Serenity &amp; Surgical Precision
+            </h1>
+
+            <p class="hero-subtitle">
+              Pioneering an elevated standard in international healthcare — combining world-renowned department directors with serene, light-filled healing pavilions.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#appointment" class="hero-btn-primary btn-hover-shine" data-open-modal="appointment">
+                <span>Schedule Private Consultation</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="#video-modal" class="hero-btn-secondary" data-open-modal="video">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                <span>Take Virtual Sanctuary Tour</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 2: Advanced Robotic Navigation & Sub-Millimeter Diagnostics -->
+      <div class="hero-slide" data-slide="1">
+        <div class="hero-slide-bg">
+          <img 
+            src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?auto=format&fit=crop&w=2400&q=85" 
+            onerror="this.onerror=null; this.src='assets/doctor-tech.svg'" 
+            alt="Advanced Robotic Surgical Suite and Diagnostic Imaging" 
+            class="hero-zoom-img"
+          >
+        </div>
+        <div class="hero-scrim-left"></div>
+        <div class="hero-scrim-bottom"></div>
+        <div class="container hero-slide-container">
+          <div class="hero-content-left">
+            <div class="hero-badge pulse-badge">
+              <span class="hero-badge-dot"></span>
+              <span>STATE-OF-THE-ART CLINICAL MASTERY</span>
+            </div>
+            
+            <h1 class="hero-title">
+              Sub-Millimeter Accuracy Powered by Robotic Navigation
+            </h1>
+
+            <p class="hero-subtitle">
+              Our hybrid surgical suites unite AI-guided robotics, 3.0 Tesla intraoperative imaging, and Harvard-trained surgical leaders for zero-compromise clinical outcomes.
+            </p>
+
+            <div class="hero-actions">
+              <a href="facilities.html" class="hero-btn-primary btn-hover-shine">
+                <span>Explore Robotic Surgery</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="doctors.html" class="hero-btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                </svg>
+                <span>Meet Department Chairs</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 3: Presidential Healing & Global Concierge -->
+      <div class="hero-slide" data-slide="2">
+        <div class="hero-slide-bg">
+          <img 
+            src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=2400&q=85" 
+            onerror="this.onerror=null; this.src='assets/patient-suite.svg'" 
+            alt="Presidential Patient Recovery Suite with floor-to-ceiling windows" 
+            class="hero-zoom-img"
+          >
+        </div>
+        <div class="hero-scrim-left"></div>
+        <div class="hero-scrim-bottom"></div>
+        <div class="container hero-slide-container">
+          <div class="hero-content-left">
+            <div class="hero-badge pulse-badge">
+              <span class="hero-badge-dot"></span>
+              <span>FIVE-STAR RESTORATIVE CARE</span>
+            </div>
+            
+            <h1 class="hero-title">
+              Presidential Recovery Suites with Botanical Terraces
+            </h1>
+
+            <p class="hero-subtitle">
+              Engineered with acoustic silence, floor-to-ceiling nature views, Michelin-grade clinical dining, and personalized 24/7 care concierges for total comfort.
+            </p>
+
+            <div class="hero-actions">
+              <a href="patient-care.html" class="hero-btn-primary btn-hover-shine">
+                <span>Explore Recovery Suites</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="#appointment" class="hero-btn-secondary" data-open-modal="appointment">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>Schedule Private Intake</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel Navigation Controls (Left-Middle aligned) -->
+    <div class="container hero-controls-container">
+      <div class="hero-carousel-controls">
+        
+        <!-- Slide Indicator Bars with Progress Fill -->
+        <div class="hero-indicators">
+          <button class="hero-indicator-btn active" data-slide-target="0" aria-label="Go to slide 1">
+            <span class="indicator-num">01</span>
+            <span class="indicator-bar"><span class="indicator-progress"></span></span>
+            <span class="indicator-label">Surgical Mastery</span>
+          </button>
+          <button class="hero-indicator-btn" data-slide-target="1" aria-label="Go to slide 2">
+            <span class="indicator-num">02</span>
+            <span class="indicator-bar"><span class="indicator-progress"></span></span>
+            <span class="indicator-label">Robotic Precision</span>
+          </button>
+          <button class="hero-indicator-btn" data-slide-target="2" aria-label="Go to slide 3">
+            <span class="indicator-num">03</span>
+            <span class="indicator-bar"><span class="indicator-progress"></span></span>
+            <span class="indicator-label">Presidential Suites</span>
+          </button>
+        </div>
+
+        <!-- Arrow Controls -->
+        <div class="hero-arrow-btns">
+          <button class="hero-arrow-btn hero-prev-btn" aria-label="Previous slide">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button class="hero-arrow-btn hero-next-btn" aria-label="Next slide">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ========================================================================
+       PREMIUM ACCREDITATION TICKER RIBBON
+       ======================================================================== -->
+  <div class="ticker-wrap" aria-label="Accreditations and Affiliations">
+    <div class="ticker-track">
+      <div class="ticker-item"><span class="ticker-dot"></span> JOINT COMMISSION INTERNATIONAL (JCI) ACCREDITED</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> HARVARD MEDICAL COLLABORATIVE ALLIANCE</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> ISO-9001:2026 SURGICAL SAFETY GOLD STANDARD</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> TOP 10 GLOBAL EXECUTIVE HEALTH SANCTUARIES</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> MAGNET RECOGNITION FOR NURSING EXCELLENCE</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> LEAPFROG HOSPITAL SAFETY GRADE A</div>
+      <!-- Duplicate track for seamless infinite scroll -->
+      <div class="ticker-item"><span class="ticker-dot"></span> JOINT COMMISSION INTERNATIONAL (JCI) ACCREDITED</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> HARVARD MEDICAL COLLABORATIVE ALLIANCE</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> ISO-9001:2026 SURGICAL SAFETY GOLD STANDARD</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> TOP 10 GLOBAL EXECUTIVE HEALTH SANCTUARIES</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> MAGNET RECOGNITION FOR NURSING EXCELLENCE</div>
+      <div class="ticker-item"><span class="ticker-dot"></span> LEAPFROG HOSPITAL SAFETY GRADE A</div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SECTION 2 — EDITORIAL SPLIT LAYOUT
+       ======================================================================== -->
+  <section class="section-approach" id="approach">
+    <div class="container">
+      <div class="approach-grid">
+        
+        <!-- LEFT COLUMN: Editorial Content -->
+        <div class="approach-content reveal-left">
+          <span class="eyebrow">OUR APPROACH</span>
+          
+          <h2 class="approach-title">
+            Healthcare for a Brighter Tomorrow
+          </h2>
+
+          <p class="approach-p">
+            We believe medicine is both a compassionate art and an exacting science. By marrying world-renowned medical specialists with revolutionary clinical technologies, we design bespoke treatment pathways tailored uniquely to each patient's biology and lifestyle — restoring vitality in an atmosphere of warmth, dignity, and calm.
+          </p>
+
+          <a href="#appointment" class="btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+            <span>Schedule an Appointment</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- RIGHT COLUMN: Asymmetrical Photo & Interactive Video Badge -->
+        <div class="approach-media-wrap reveal-right">
+          <div class="approach-asym-container">
+            <img 
+              src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85" 
+              onerror="this.onerror=null; this.src='assets/approach-interior.svg'" 
+              alt="Hospital interior photograph with warm ambient lighting and luxury waiting lounge" 
+              class="approach-asym-img"
+            >
+
+            <!-- Circular Play Button Overlay: "Experience Our Care" -->
+            <div class="video-overlay-pill float-element" data-open-modal="video" role="button" tabindex="0" aria-label="Play virtual walkthrough: Experience Our Care">
+              <div class="play-circle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                </svg>
+              </div>
+              <div class="play-meta">
+                <span class="play-title">Experience Our Care</span>
+                <span class="play-sub">2-MIN VIRTUAL TOUR</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 3 — HOSPITAL STATISTICS
+       ======================================================================== -->
+  <section class="section-stats" id="statistics">
+    <div class="container">
+      <div class="stats-panel reveal-scale">
+        
+        <!-- Column 1: 500+ Expert Doctors -->
+        <div class="stat-col">
+          <div class="stat-icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path>
+              <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path>
+              <circle cx="20" cy="10" r="2"></circle>
+            </svg>
+          </div>
+          <div class="stat-number" data-stat="doctors">500+</div>
+          <div class="stat-label">Expert Doctors</div>
+          <div class="stat-subtext">Board-certified leaders &amp; surgeons</div>
+        </div>
+
+        <!-- Column 2: 1000+ Beds Capacity -->
+        <div class="stat-col">
+          <div class="stat-icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 4v16"></path>
+              <path d="M2 8h18a2 2 0 0 1 2 2v10"></path>
+              <path d="M2 17h20"></path>
+              <path d="M6 8v9"></path>
+            </svg>
+          </div>
+          <div class="stat-number" data-stat="beds">1000+</div>
+          <div class="stat-label">Beds Capacity</div>
+          <div class="stat-subtext">Luxury private recovery suites</div>
+        </div>
+
+        <!-- Column 3: 2M+ Lives Touched -->
+        <div class="stat-col">
+          <div class="stat-icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+            </svg>
+          </div>
+          <div class="stat-number" data-stat="lives">2M+</div>
+          <div class="stat-label">Lives Touched</div>
+          <div class="stat-subtext">Families healed across 48 nations</div>
+        </div>
+
+        <!-- Column 4: 25+ Years of Excellence -->
+        <div class="stat-col">
+          <div class="stat-icon-wrap" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="6"></circle>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+            </svg>
+          </div>
+          <div class="stat-number" data-stat="years">25+</div>
+          <div class="stat-label">Years of Excellence</div>
+          <div class="stat-subtext">Gold standard clinical accreditation</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 4 — MEDICAL SPECIALTIES
+       ======================================================================== -->
+  <section class="section-specialties" id="specialties">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="specialties-header reveal">
+        <div class="specialties-header-left">
+          <span class="eyebrow">OUR SPECIALTIES</span>
+          <h2 class="specialties-title">
+            Comprehensive Care Across Every Stage of Life
+          </h2>
+        </div>
+        <div>
+          <a href="specialties.html" class="specialties-explore-link">
+            <span>Explore All Specialties</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Specialties 6-Card Grid with Staggered Reveal -->
+      <div class="specialties-grid stagger-parent">
+        
+        <!-- CARD 1: Cardiology — realistic anatomical heart image -->
+        <article class="specialty-card">
+          <div class="specialty-img-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&q=85" 
+              onerror="this.onerror=null; this.src='assets/cardiology.svg'" 
+              alt="Cardiology — realistic anatomical heart image with coronary arteries" 
+              class="specialty-img"
+              loading="lazy"
+            >
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Cardiology</h3>
+            <p class="specialty-desc">
+              Pioneering catheter-based cardiovascular interventions, advanced electrophysiology, and precision preventative heart disease management.
+            </p>
+            <a href="specialties.html#cardiology" class="specialty-link" aria-label="Learn more about Cardiology">
+              <span>Explore Cardiology</span>
+              <div class="specialty-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 2: Neurology — realistic brain image -->
+        <article class="specialty-card">
+          <div class="specialty-img-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=85" 
+              onerror="this.onerror=null; this.src='assets/neurology.svg'" 
+              alt="Neurology — realistic brain image with cerebral cortex" 
+              class="specialty-img"
+              loading="lazy"
+            >
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Neurology</h3>
+            <p class="specialty-desc">
+              Comprehensive neuro-vascular mapping, stroke critical care, and precision micro-neurosurgical therapies for complex brain and spinal conditions.
+            </p>
+            <a href="specialties.html#neurology" class="specialty-link" aria-label="Learn more about Neurology">
+              <span>Explore Neurology</span>
+              <div class="specialty-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 3: Oncology — elegant cancer awareness ribbon image -->
+        <article class="specialty-card">
+          <div class="specialty-img-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=85" 
+              onerror="this.onerror=null; this.src='assets/oncology.svg'" 
+              alt="Oncology — elegant cancer awareness ribbon image" 
+              class="specialty-img"
+              loading="lazy"
+            >
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Oncology</h3>
+            <p class="specialty-desc">
+              Next-generation cellular immunotherapy, targeted genomic profiling, and dedicated multidisciplinary cancer treatment pavilions.
+            </p>
+            <a href="specialties.html#oncology" class="specialty-link" aria-label="Learn more about Oncology">
+              <span>Explore Oncology</span>
+              <div class="specialty-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 4: Orthopedics — anatomical knee joint image -->
+        <article class="specialty-card">
+          <div class="specialty-img-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=85" 
+              onerror="this.onerror=null; this.src='assets/orthopedics.svg'" 
+              alt="Orthopedics — anatomical knee joint image with cartilage and patella" 
+              class="specialty-img"
+              loading="lazy"
+            >
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Orthopedics</h3>
+            <p class="specialty-desc">
+              Robotic-assisted joint arthroplasty, elite sports medicine recovery, and biologic tissue regeneration for total mobility restoration.
+            </p>
+            <a href="specialties.html#orthopedics" class="specialty-link" aria-label="Learn more about Orthopedics">
+              <span>Explore Orthopedics</span>
+              <div class="specialty-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 5: Women's Health — delicate floral image -->
+        <article class="specialty-card">
+          <div class="specialty-img-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=85" 
+              onerror="this.onerror=null; this.src='assets/womens-health.svg'" 
+              alt="Women's Health — delicate floral image with soft champagne petals" 
+              class="specialty-img"
+              loading="lazy"
+            >
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Women's Health</h3>
+            <p class="specialty-desc">
+              Holistic obstetrical suites, preventative gynecological wellness, fertility preservation, and compassionate maternal-fetal medicine.
+            </p>
+            <a href="specialties.html#womens-health" class="specialty-link" aria-label="Learn more about Women's Health">
+              <span>Explore Women's Health</span>
+              <div class="specialty-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 6: Pediatrics — soft teddy bear image -->
+        <article class="specialty-card">
+          <div class="specialty-img-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=85" 
+              onerror="this.onerror=null; this.src='assets/pediatrics.svg'" 
+              alt="Pediatrics — soft teddy bear image representing gentle pediatric care" 
+              class="specialty-img"
+              loading="lazy"
+            >
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Pediatrics</h3>
+            <p class="specialty-desc">
+              Child-centered healing environments, Level IV neonatal intensive care, and gentle developmental pediatric subspecialties.
+            </p>
+            <a href="specialties.html#pediatrics" class="specialty-link" aria-label="Learn more about Pediatrics">
+              <span>Explore Pediatrics</span>
+              <div class="specialty-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 5 — DARK FOREST GREEN FEATURE SECTION
+       ======================================================================== -->
+  <section class="section-feature-dark" id="features">
+    <div class="forest-bg-decor" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="feature-3col-grid">
+        
+        <!-- LEFT COLUMN: Ivory Heading, Narrative & Outlined CTA -->
+        <div class="feature-left-col reveal-left">
+          <span class="eyebrow eyebrow-gold">THE AURA DISTINCTION</span>
+          
+          <h2 class="feature-dark-title">
+            More Than Treatment A Commitment to You
+          </h2>
+
+          <p class="feature-dark-p">
+            We redefine what modern hospital care can feel like. From your initial diagnostic consultation to lifelong clinical follow-through, our multidisciplinary teams deliver precision medicine backed by genuine empathy and clinical brilliance.
+          </p>
+
+          <a href="about.html" class="btn-outline-ivory btn-hover-shine">
+            <span>Our Difference</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- MIDDLE COLUMN: 2x2 Feature Grid with Gold Line Icons -->
+        <div class="feature-2x2-grid reveal">
+          
+          <!-- Feature 1: World-Class Infrastructure -->
+          <div class="feature-item">
+            <div class="feature-icon-box" aria-hidden="true">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                <path d="M9 22v-4h6v4"></path>
+                <path d="M8 6h.01"></path>
+                <path d="M16 6h.01"></path>
+                <path d="M12 6h.01"></path>
+                <path d="M12 10h.01"></path>
+                <path d="M12 14h.01"></path>
+                <path d="M16 10h.01"></path>
+                <path d="M16 14h.01"></path>
+                <path d="M8 10h.01"></path>
+                <path d="M8 14h.01"></path>
+              </svg>
+            </div>
+            <h3 class="feature-item-title">World-Class Infrastructure</h3>
+            <p class="feature-item-desc">
+              Surgically sterile smart suites, laminar airflow operating theatres, and hotel-grade private recovery pavilions with botanical views.
+            </p>
+          </div>
+
+          <!-- Feature 2: Experienced Specialists -->
+          <div class="feature-item">
+            <div class="feature-icon-box" aria-hidden="true">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="feature-item-title">Experienced Specialists</h3>
+            <p class="feature-item-desc">
+              Over 500 board-certified physicians, surgeon-scientists, and dedicated subspecialty clinicians recruited from top global institutions.
+            </p>
+          </div>
+
+          <!-- Feature 3: Advanced Technology -->
+          <div class="feature-item">
+            <div class="feature-icon-box" aria-hidden="true">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-item-title">Advanced Technology</h3>
+            <p class="feature-item-desc">
+              Photon-counting spectral CT, ultra-silent 3.0 Tesla MRI, AI intraoperative navigation, and robotic minimally invasive surgical platforms.
+            </p>
+          </div>
+
+          <!-- Feature 4: Patient-Centric Approach -->
+          <div class="feature-item">
+            <div class="feature-icon-box" aria-hidden="true">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-item-title">Patient-Centric Approach</h3>
+            <p class="feature-item-desc">
+              Unrushed private consultations, personalized dietary planning, dedicated 24/7 care concierges, and circadian ambient acoustic environments.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: Medical Technology Photograph with Asymmetrical Corners -->
+        <div class="feature-right-col reveal-right">
+          <div class="feature-asym-container">
+            <img 
+              src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?auto=format&fit=crop&w=1200&q=85" 
+              onerror="this.onerror=null; this.src='assets/doctor-tech.svg'" 
+              alt="Doctor working with advanced diagnostic imaging equipment and precision surgical display" 
+              class="feature-asym-img"
+              loading="lazy"
+            >
+            <div class="feature-tag-badge">
+              <span>JCI ACCREDITED • PRECISION MEDICINE</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 6 — ADVANCED FACILITIES
+       ======================================================================== -->
+  <section class="section-facilities" id="facilities">
+    <div class="container">
+      <div class="facilities-grid">
+        
+        <!-- LEFT COLUMN: Editorial Narrative, Highlights & Beige Button -->
+        <div class="facilities-left-col reveal-left">
+          <span class="eyebrow">STATE-OF-THE-ART FACILITIES</span>
+          
+          <h2 class="facilities-title">
+            Technology That Cares
+          </h2>
+
+          <p class="facilities-p">
+            Every architectural contour, clinical airflow system, and diagnostic suite at Aura has been meticulously engineered to accelerate physiological recovery while preserving complete peace of mind. Here, advanced biomedical capability exists in effortless unison with restorative calm.
+          </p>
+
+          <ul class="facilities-bullets">
+            <li class="facility-bullet-item">
+              <div class="bullet-check" aria-hidden="true">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <span>Next-generation 3-Tesla ultra-silent MRI suites with ambient circadian skylights</span>
+            </li>
+            
+            <li class="facility-bullet-item">
+              <div class="bullet-check" aria-hidden="true">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <span>Private residential patient pavilions with floor-to-ceiling panoramic nature vistas</span>
+            </li>
+
+            <li class="facility-bullet-item">
+              <div class="bullet-check" aria-hidden="true">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <span>Laminar flow hybrid operating theaters with real-time robotic 3D navigation</span>
+            </li>
+          </ul>
+
+          <a href="facilities.html" class="btn-beige-pill btn-hover-shine">
+            <span>Explore Our Facilities</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- RIGHT COLUMN: Two Large Rectangular Photographs with Rounded Corners -->
+        <div class="facilities-right-col reveal-right">
+          
+          <!-- Photo 1: Premium modern MRI / CT scan room -->
+          <div class="facility-img-card">
+            <img 
+              src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85" 
+              onerror="this.onerror=null; this.src='assets/mri-room.svg'" 
+              alt="Premium modern MRI and CT scan room with ambient illumination and soothing acoustic architecture" 
+              class="facility-img"
+              loading="lazy"
+            >
+            <div class="facility-caption-badge">
+              <span class="facility-caption-tag">DIAGNOSTIC SUITE</span>
+              <span class="facility-caption-text">3.0T Bio-Matrix MRI &amp; CT Center</span>
+            </div>
+          </div>
+
+          <!-- Photo 2: Luxury private hospital patient room with floor-to-ceiling windows -->
+          <div class="facility-img-card">
+            <img 
+              src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=85" 
+              onerror="this.onerror=null; this.src='assets/patient-suite.svg'" 
+              alt="Luxury private hospital patient room with floor-to-ceiling windows overlooking tranquil green park" 
+              class="facility-img"
+              loading="lazy"
+            >
+            <div class="facility-caption-badge">
+              <span class="facility-caption-tag">RECOVERY PAVILION</span>
+              <span class="facility-caption-text">Presidential Private Patient Sanctuary</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SITE FOOTER
+       ======================================================================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-top-grid">
+        
+        <!-- Brand & Mission Column -->
+        <div>
+          <a href="index.html" class="brand-link">
+            <div class="brand-crest">
+              <svg width="34" height="34" viewBox="0 0 36 36" fill="none">
+                <rect width="36" height="36" rx="8" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+                <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title" style="font-size: 1.35rem;">AURA HEALTH</span>
+              <span class="brand-sub">LUXURY HEALTHCARE &amp; RESEARCH</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            A world-class medical sanctuary dedicated to clinical innovation, surgical mastery, and dignified patient-first healing environments.
+          </p>
+        </div>
+
+        <!-- Quick Links to Inner Pages -->
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">Our Approach &amp; Heritage</a></li>
+            <li><a href="specialties.html" class="footer-link">Medical Specialties</a></li>
+            <li><a href="facilities.html" class="footer-link">Hospital Facilities</a></li>
+            <li><a href="doctors.html" class="footer-link">Specialists &amp; Surgeons</a></li>
+            <li><a href="patient-care.html" class="footer-link">Patient Concierge</a></li>
+            <li><a href="contact.html" class="footer-link">Sanctuary Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Specialties Direct -->
+        <div>
+          <h4 class="footer-heading">Centers of Excellence</h4>
+          <ul class="footer-links-list">
+            <li><a href="specialties.html#cardiology" class="footer-link">Cardiology &amp; Vascular</a></li>
+            <li><a href="specialties.html#neurology" class="footer-link">Neurology &amp; Spine</a></li>
+            <li><a href="specialties.html#oncology" class="footer-link">Comprehensive Oncology</a></li>
+            <li><a href="specialties.html#orthopedics" class="footer-link">Orthopedic Surgery</a></li>
+            <li><a href="specialties.html#womens-health" class="footer-link">Women's Health</a></li>
+            <li><a href="specialties.html#pediatrics" class="footer-link">Pediatric Medicine</a></li>
+          </ul>
+        </div>
+
+        <!-- 24/7 Hotline & Location -->
+        <div>
+          <h4 class="footer-heading">Emergency &amp; Concierge</h4>
+          <div class="footer-emergency-box">
+            <div class="footer-emergency-label">24/7 CONCIERGE HOTLINE</div>
+            <a href="tel:+18004829000" class="footer-emergency-phone">+1 (800) 482-9000</a>
+          </div>
+          <p style="font-size: 13.5px; color: var(--text-ivory-dim); line-height: 1.6;">
+            Aura Medical Sanctuary, 750 Wellness Way,<br>
+            Pavilion Central, Boston, MA 02115
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Aura Health &amp; Research Sanctuary. All rights reserved. JCI &amp; ISO-9001 Certified.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="contact.html" class="footer-link">Privacy Policy</a>
+          <a href="contact.html" class="footer-link">Patient Rights &amp; Responsibilities</a>
+          <a href="contact.html" class="footer-link">Clinical Quality Metrics</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL: APPOINTMENT BOOKING DIALOG
+       ======================================================================== -->
+  <div class="modal-backdrop" id="appointment-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="close-appointment-modal" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="eyebrow">PRIVATE CONSULTATION</span>
+      <h2 id="modal-title" style="font-size: 2.2rem; color: var(--forest-green); margin-bottom: 0.75rem;">
+        Schedule an Appointment
+      </h2>
+      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 2rem;">
+        Please complete this confidential request. A dedicated Aura Medical Concierge will contact you within 2 business hours.
+      </p>
+
+      <form id="appointment-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-name">Full Patient Name *</label>
+            <input type="text" id="patient-name" class="form-control" placeholder="e.g. Eleanor Vance" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-phone">Phone Number *</label>
+            <input type="tel" id="patient-phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-email">Email Address *</label>
+            <input type="email" id="patient-email" class="form-control" placeholder="patient@example.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-dept">Preferred Department *</label>
+            <select id="patient-dept" class="form-control" required>
+              <option value="Cardiology">Cardiology &amp; Vascular Health</option>
+              <option value="Neurology">Neurology &amp; Neurosurgery</option>
+              <option value="Oncology">Comprehensive Oncology</option>
+              <option value="Orthopedics">Orthopedics &amp; Joint Surgery</option>
+              <option value="Womens Health">Women's &amp; Maternal Health</option>
+              <option value="Pediatrics">Pediatric &amp; Neonatal Care</option>
+              <option value="Executive Health">Executive Health Assessment</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-date">Preferred Date</label>
+            <input type="date" id="patient-date" class="form-control">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-time">Preferred Time of Day</label>
+            <select id="patient-time" class="form-control">
+              <option>Morning (08:00 AM – 12:00 PM)</option>
+              <option>Afternoon (12:00 PM – 04:00 PM)</option>
+              <option>Evening Concierge (04:00 PM – 08:00 PM)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="patient-notes">Clinical Notes or Specific Concerns (Optional)</label>
+          <textarea id="patient-notes" class="form-control" rows="3" placeholder="Briefly describe your medical concerns, referring physician, or request for specific department heads..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-forest-pill btn-hover-shine" style="width: 100%; justify-content: center; margin-top: 0.5rem;">
+          <span>Confirm Consultation Request</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: VIRTUAL WALKTHROUGH & FACILITY TOUR
+       ======================================================================== -->
+  <div class="modal-backdrop" id="video-modal" role="dialog" aria-modal="true" aria-labelledby="tour-modal-title">
+    <div class="modal-dialog modal-video-dialog">
+      <button class="modal-close-btn" id="close-video-modal" style="background: rgba(255,255,255,0.1); color: #FFF; border-color: rgba(255,255,255,0.2);" aria-label="Close walkthrough">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div style="padding: 0.5rem 0.75rem 1.25rem 0.75rem;">
+        <span class="eyebrow eyebrow-gold">IMMERSIVE VIRTUAL TOUR</span>
+        <h2 id="tour-modal-title" style="font-size: 1.85rem; color: #FAF9F6; margin-bottom: 0.35rem;">
+          Experience Aura Sanctuary
+        </h2>
+        <p id="tour-room-desc" style="font-size: 13.5px; color: var(--text-ivory-dim); line-height: 1.6;">
+          Featuring sculptural ambient illumination, acoustic natural marble, and living botanical gardens designed to instill peace upon arrival.
+        </p>
+
+        <!-- Room Switcher Tabs -->
+        <div style="display: flex; gap: 0.65rem; margin: 1.25rem 0; flex-wrap: wrap;">
+          <button class="btn-outline-ivory" data-room-switch="lobby" style="padding: 0.4rem 1rem; font-size: 12px; background: var(--gold-accent); color: var(--forest-dark); border-color: var(--gold-accent);">Grand Lobby Atrium</button>
+          <button class="btn-outline-ivory" data-room-switch="surgery" style="padding: 0.4rem 1rem; font-size: 12px; background: rgba(255,255,255,0.08); color: #FAF9F6; border-color: rgba(255,255,255,0.15);">Robotic Surgery Suite</button>
+          <button class="btn-outline-ivory" data-room-switch="mri" style="padding: 0.4rem 1rem; font-size: 12px; background: rgba(255,255,255,0.08); color: #FAF9F6; border-color: rgba(255,255,255,0.15);">3T MRI Imaging Suite</button>
+          <button class="btn-outline-ivory" data-room-switch="suite" style="padding: 0.4rem 1rem; font-size: 12px; background: rgba(255,255,255,0.08); color: #FAF9F6; border-color: rgba(255,255,255,0.15);">Presidential Healing Suite</button>
+        </div>
+
+        <!-- Video Simulation Embed -->
+        <div class="video-container-embed">
+          <img id="tour-main-img" src="assets/lobby-hero.svg" alt="Tour Room Preview" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(10,28,23,0.85); backdrop-filter: blur(10px); padding: 0.5rem 1.2rem; border-radius: 9999px; border: 1px solid var(--gold-accent); display: flex; align-items: center; gap: 0.5rem;">
+            <span style="width: 8px; height: 8px; border-radius: 50%; background: #4ADE80; box-shadow: 0 0 8px #4ADE80;"></span>
+            <span id="tour-room-title" style="font-size: 12px; font-weight: 600; color: #FAF9F6; letter-spacing: 0.05em;">Double-Height Grand Lobby &amp; Architectural Atrium</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>

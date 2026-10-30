@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>State-of-the-Art Facilities &amp; Technology | AURA Health</title>
+  <meta name="description" content="Explore Aura's hybrid robotic surgical suites, ultra-silent 3T MRI diagnostic pavilions, and presidential private recovery suites.">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23102C24'/%3E%3Cpath d='M20 8 L23 16 L31 16 L25 21 L27 29 L20 24 L13 29 L15 21 L9 16 L17 16 Z' fill='%23C5A36A'/%3E%3C/svg%3E">
+</head>
+<body class="page-fade-in">
+
+  <!-- Header -->
+    <!-- ========================================================================
+       TOP NAVIGATION BAR — FLOATING LUXURY INSTRUMENT PANEL
+       ======================================================================== -->
+  <header class="site-header scrolled">
+    <div class="container">
+      <div class="header-container">
+        
+        <!-- Logo & Brand Crest -->
+        <a href="index.html" class="brand-link" aria-label="Aura Healthcare Home">
+          <div class="brand-crest">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+              <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">AURA HEALTH</span>
+            <span class="brand-sub">SANCTUARY OF MEDICINE</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">Our Approach</a></li>
+            <li><a href="specialties.html" class="nav-link">Specialties</a></li>
+            <li><a href="facilities.html" class="nav-link active">Facilities</a></li>
+            <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+            <li><a href="patient-care.html" class="nav-link">Patient Care</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Action Buttons & Mobile Hamburger -->
+        <div class="nav-actions">
+          <a href="tel:+18004829000" class="nav-phone-pill" title="24/7 Dedicated Concierge Care Line">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>(800) 482-9000</span>
+          </a>
+
+          <a href="#appointment" class="nav-cta-btn btn-hover-shine" data-open-modal="appointment">
+            <span class="cta-text-full">Book Appointment</span>
+            <span class="cta-text-short">Book</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+
+          <!-- Mobile Menu Hamburger Button -->
+          <button class="mobile-toggle" aria-label="Toggle navigation menu" id="mobile-menu-toggle">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       LUXURY SLIDE-IN MOBILE NAVIGATION DRAWER
+       ======================================================================== -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <a href="index.html" class="brand-link">
+        <div class="brand-crest">
+          <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+            <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+            <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" style="font-size: 1.15rem;">AURA HEALTH</span>
+          <span class="brand-sub" style="font-size: 8px;">SANCTUARY OF MEDICINE</span>
+        </div>
+      </a>
+      <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-nav-body">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-item">
+          <span>Home</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="about.html" class="mobile-nav-item">
+          <span>Our Approach</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="specialties.html" class="mobile-nav-item">
+          <span>Specialties</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="facilities.html" class="mobile-nav-item active">
+          <span>Facilities</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="doctors.html" class="mobile-nav-item">
+          <span>Doctors</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="patient-care.html" class="mobile-nav-item">
+          <span>Patient Care</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+          <span>Contact</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </nav>
+
+      <div class="mobile-nav-footer">
+        <a href="tel:+18004829000" class="mobile-nav-phone">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <div>
+            <div style="font-size: 10px; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">24/7 Concierge Hotline</div>
+            <div style="font-size: 14.5px; font-weight: 700; color: #FAF9F6;">(800) 482-9000</div>
+          </div>
+        </a>
+
+        <a href="#appointment" class="mobile-nav-cta btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+          <span>Schedule Consultation</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+    <!-- ========================================================================
+       CINEMATIC LUXURY INNER PAGE HERO
+       ======================================================================== -->
+  <section class="inner-hero-cinematic">
+    <!-- Atmospheric Photography Background & Dark Emerald Scrim -->
+    <div class="inner-hero-bg">
+      <img 
+        src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=2200&q=85" 
+        onerror="this.onerror=null; this.src='assets/mri-room.svg'" 
+        alt="Modern MRI Suite and Biomedical Architecture" 
+        class="inner-hero-img"
+      >
+      <div class="inner-hero-scrim"></div>
+      <div class="inner-hero-vignette"></div>
+    </div>
+
+    <div class="container inner-hero-container reveal">
+      <!-- Breadcrumb Pill -->
+      <nav class="breadcrumb-pill" aria-label="Breadcrumb Navigation">
+        <a href="index.html" class="breadcrumb-home">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          <span>Home</span>
+        </a>
+        <span class="breadcrumb-sep">/</span>
+        <span class="breadcrumb-current">Hospital Facilities</span>
+      </nav>
+
+      <!-- Glowing Eyebrow Badge -->
+      <div class="inner-hero-badge pulse-badge">
+        <span class="hero-badge-dot"></span>
+        <span>BIOMEDICAL INFRASTRUCTURE</span>
+      </div>
+
+      <!-- Editorial Title -->
+      <h1 class="inner-hero-title">
+        A Masterpiece of Biomedical Architecture &amp; Tranquility
+      </h1>
+
+      <!-- Editorial Lead -->
+      <p class="inner-hero-lead">
+        Where clinical sterility, acoustic silence, and restorative beauty coexist. Every detail from laminar airflow to circadian lighting accelerates physiological healing.
+      </p>
+
+      <!-- Trust & Key Feature Badges Ribbon -->
+      <div class="inner-hero-ribbon">
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          <span>1000+ Smart Inpatient Beds</span>
+        </div>
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          <span>3.0 Tesla Bio-Matrix MRI</span>
+        </div>
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>Class-100 Laminar Clean Airflow</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive 360 Wing Navigator -->
+  <section style="padding: 5rem 0; background-color: var(--bg-ivory);">
+    <div class="container">
+      
+      <div class="facility-interactive-suite reveal">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+          <div>
+            <div class="suite-telemetry-badge">
+              <span style="width: 6px; height: 6px; border-radius: 50%; background: #4ADE80; box-shadow: 0 0 6px #4ADE80;"></span>
+              <span>LIVE SUITE TELEMETRY • ACTIVE MONITORING</span>
+            </div>
+            <h2 id="facility-suite-title" style="font-family: var(--font-serif); font-size: 2.2rem; color: #FAF9F6; margin-top: 0.6rem;">
+              Hybrid Robotic Operating Theater Wing
+            </h2>
+          </div>
+          
+          <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+            <button class="filter-pill-btn active" data-room-switch="surgery" style="font-size: 12px; padding: 0.4rem 1rem;">Robotic Operating Wing</button>
+            <button class="filter-pill-btn" data-room-switch="mri" style="font-size: 12px; padding: 0.4rem 1rem;">3.0T MRI Diagnostic Suite</button>
+            <button class="filter-pill-btn" data-room-switch="suite" style="font-size: 12px; padding: 0.4rem 1rem;">Presidential Recovery Suites</button>
+            <button class="filter-pill-btn" data-room-switch="lobby" style="font-size: 12px; padding: 0.4rem 1rem;">Grand Healing Atrium</button>
+          </div>
+        </div>
+
+        <div style="width: 100%; aspect-ratio: 16 / 8.5; border-radius: 20px; overflow: hidden; border: 1px solid rgba(197, 163, 106, 0.35); position: relative; margin-bottom: 2rem;">
+          <img id="tour-main-img" src="assets/doctor-tech.svg" alt="Facility Wing" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(10,28,23,0.9); backdrop-filter: blur(10px); padding: 0.6rem 1.4rem; border-radius: 9999px; border: 1px solid var(--gold-accent); color: #FAF9F6; font-size: 13px;">
+            <strong style="color: var(--gold-accent);">Specification:</strong> Class-100 Clean Air • 55dB Soundproofing • Circadian Lighting
+          </div>
+        </div>
+
+        <!-- Environmental Metric Gauges -->
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; border-top: 1px solid rgba(255,255,255,0.12); padding-top: 2rem;">
+          <div>
+            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold-accent);">Acoustic Rating</div>
+            <div style="font-family: var(--font-serif); font-size: 1.8rem; color: #FAF9F6;">NC-25 (Whisper-Quiet)</div>
+          </div>
+          <div>
+            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold-accent);">Air Turnover</div>
+            <div style="font-family: var(--font-serif); font-size: 1.8rem; color: #FAF9F6;">22 Cycles / Hour</div>
+          </div>
+          <div>
+            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold-accent);">Bio-Sterility</div>
+            <div style="font-family: var(--font-serif); font-size: 1.8rem; color: #FAF9F6;">99.999% HEPA</div>
+          </div>
+          <div>
+            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold-accent);">Natural Daylight Index</div>
+            <div style="font-family: var(--font-serif); font-size: 1.8rem; color: #FAF9F6;">94% Full Spectrum</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Cutting-Edge Equipment Registry Grid -->
+  <section style="padding: 4rem 0 7rem 0; background-color: var(--bg-ivory-warm); border-top: 1px solid var(--border-beige);">
+    <div class="container">
+      <div style="max-width: 760px; margin-bottom: 3.5rem;" class="reveal">
+        <span class="eyebrow">DIAGNOSTIC &amp; SURGICAL FLEET</span>
+        <h2 style="font-size: clamp(2.2rem, 3.5vw, 3.2rem); color: var(--forest-green); font-weight: 500;">
+          Precision Biomedical Technologies
+        </h2>
+        <p style="font-size: 15px; color: var(--text-body); margin-top: 0.6rem;">
+          We invest continuously in the most advanced diagnostic and intraoperative systems, giving our surgeons sub-millimeter clinical clarity.
+        </p>
+      </div>
+
+      <div class="equipment-grid stagger-parent">
+        
+        <!-- Equip 1 -->
+        <div class="equipment-card">
+          <div style="font-size: 11px; font-weight: 700; color: var(--gold-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">DIAGNOSTIC IMAGING</div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--forest-green); margin-bottom: 0.75rem;">3.0T Bio-Matrix MRI</h3>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.65;">
+            Zero acoustic distress system with immersive circadian skylights, delivering 0.1mm micro-vascular resolution without patient claustrophobia.
+          </p>
+          <table class="spec-table">
+            <tr><td>Magnetic Field</td><td>3.0 Tesla High-Field</td></tr>
+            <tr><td>Bore Diameter</td><td>70cm Extra-Wide Comfort</td></tr>
+            <tr><td>Scan Sound Level</td><td><65 dB Ultra-Silent</td></tr>
+          </table>
+        </div>
+
+        <!-- Equip 2 -->
+        <div class="equipment-card">
+          <div style="font-size: 11px; font-weight: 700; color: var(--gold-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">MINIMALLY INVASIVE SURGERY</div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--forest-green); margin-bottom: 0.75rem;">Da Vinci Xi Dual-Console</h3>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.65;">
+            Quad-arm surgical robotic system with multi-quadrant anatomical access and tremor filtration for complex thoracic and oncology procedures.
+          </p>
+          <table class="spec-table">
+            <tr><td>Magnification</td><td>10x 3D High-Definition</td></tr>
+            <tr><td>Wrist Articulation</td><td>540° Degrees of Freedom</td></tr>
+            <tr><td>Console Mode</td><td>Dual-Surgeon Collaborative</td></tr>
+          </table>
+        </div>
+
+        <!-- Equip 3 -->
+        <div class="equipment-card">
+          <div style="font-size: 11px; font-weight: 700; color: var(--gold-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">RADIATION ONCOLOGY</div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--forest-green); margin-bottom: 0.75rem;">TrueBeam Radiosurgery</h3>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.65;">
+            Real-time tumor-tracking stereotactic radiation targeting lesions at the sub-millimeter level while completely sparing adjacent organ tissues.
+          </p>
+          <table class="spec-table">
+            <tr><td>Beam Accuracy</td><td><0.5mm Sub-Millimeter</td></tr>
+            <tr><td>Session Duration</td><td>5–15 Minutes Rapid</td></tr>
+            <tr><td>Gating System</td><td>Respiratory Synchronized</td></tr>
+          </table>
+        </div>
+
+        <!-- Equip 4 -->
+        <div class="equipment-card">
+          <div style="font-size: 11px; font-weight: 700; color: var(--gold-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">ORTHOPEDIC ROBOTICS</div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--forest-green); margin-bottom: 0.75rem;">Mako Robotic Joint Suite</h3>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.65;">
+            Pre-operative 3D CT modeling and intraoperative tactile haptic feedback for perfectly customized knee and hip joint replacements.
+          </p>
+          <table class="spec-table">
+            <tr><td>Pre-Op Modeling</td><td>Patient-Specific 3D CT</td></tr>
+            <tr><td>Haptic Boundary</td><td>Bone-Preserving Safeguard</td></tr>
+            <tr><td>Implant Longevity</td><td>>98% at 20-Year Horizon</td></tr>
+          </table>
+        </div>
+
+        <!-- Equip 5 -->
+        <div class="equipment-card">
+          <div style="font-size: 11px; font-weight: 700; color: var(--gold-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">SPECTRAL COMPUTED TOMOGRAPHY</div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--forest-green); margin-bottom: 0.75rem;">Photon-Counting Dual-CT</h3>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.65;">
+            Next-generation quantum energy detector CT that visualizes calcium scoring, coronary stents, and micro-nodules with 80% less radiation dose.
+          </p>
+          <table class="spec-table">
+            <tr><td>Radiation Dose</td><td>Up to 82% Lower Dosage</td></tr>
+            <tr><td>Scan Speed</td><td>Whole Heart in 0.25 Sec</td></tr>
+            <tr><td>Spatial Resolution</td><td>0.11mm Ultra-Fine Detail</td></tr>
+          </table>
+        </div>
+
+        <!-- Equip 6 -->
+        <div class="equipment-card">
+          <div style="font-size: 11px; font-weight: 700; color: var(--gold-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">INTERVENTIONAL CARDIOLOGY</div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--forest-green); margin-bottom: 0.75rem;">Artis Pheno Robotic C-Arm</h3>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.65;">
+            Floor-mounted robotic imaging arm capable of 3D cone-beam computed tomography inside the operating theater during endovascular repairs.
+          </p>
+          <table class="spec-table">
+            <tr><td>Imaging Geometry</td><td>360° Multi-Axis Free Range</td></tr>
+            <tr><td>Collision Safety</td><td>Capacitive Proximity Sensors</td></tr>
+            <tr><td>Hybrid Integration</td><td>Combined Angio &amp; OR Suite</td></tr>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <a href="index.html" class="brand-link">
+            <div class="brand-crest">
+              <svg width="34" height="34" viewBox="0 0 36 36" fill="none">
+                <rect width="36" height="36" rx="8" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+                <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title" style="font-size: 1.35rem;">AURA HEALTH</span>
+              <span class="brand-sub">LUXURY HEALTHCARE &amp; RESEARCH</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            A world-class medical sanctuary dedicated to clinical innovation, surgical mastery, and dignified patient-first healing environments.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">Our Approach &amp; Heritage</a></li>
+            <li><a href="specialties.html" class="footer-link">Medical Specialties</a></li>
+            <li><a href="facilities.html" class="footer-link">Hospital Facilities</a></li>
+            <li><a href="doctors.html" class="footer-link">Specialists &amp; Surgeons</a></li>
+            <li><a href="patient-care.html" class="footer-link">Patient Concierge</a></li>
+            <li><a href="contact.html" class="footer-link">Sanctuary Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Centers of Excellence</h4>
+          <ul class="footer-links-list">
+            <li><a href="specialties.html#cardiology" class="footer-link">Cardiology &amp; Vascular</a></li>
+            <li><a href="specialties.html#neurology" class="footer-link">Neurology &amp; Spine</a></li>
+            <li><a href="specialties.html#oncology" class="footer-link">Comprehensive Oncology</a></li>
+            <li><a href="specialties.html#orthopedics" class="footer-link">Orthopedic Surgery</a></li>
+            <li><a href="specialties.html#womens-health" class="footer-link">Women's Health</a></li>
+            <li><a href="specialties.html#pediatrics" class="footer-link">Pediatric Medicine</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Emergency &amp; Concierge</h4>
+          <div class="footer-emergency-box">
+            <div class="footer-emergency-label">24/7 CONCIERGE HOTLINE</div>
+            <a href="tel:+18004829000" class="footer-emergency-phone">+1 (800) 482-9000</a>
+          </div>
+          <p style="font-size: 13.5px; color: var(--text-ivory-dim); line-height: 1.6;">
+            Aura Medical Sanctuary, 750 Wellness Way,<br>
+            Pavilion Central, Boston, MA 02115
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aura Health &amp; Research Sanctuary. All rights reserved. JCI &amp; ISO-9001 Certified.</div>
+        <div class="footer-bottom-links">
+          <a href="contact.html" class="footer-link">Privacy Policy</a>
+          <a href="contact.html" class="footer-link">Patient Rights</a>
+          <a href="contact.html" class="footer-link">Quality Metrics</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Appointment Modal -->
+  <div class="modal-backdrop" id="appointment-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="close-appointment-modal" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="eyebrow">PRIVATE CONSULTATION</span>
+      <h2 id="modal-title" style="font-size: 2.2rem; color: var(--forest-green); margin-bottom: 0.75rem;">Schedule an Appointment</h2>
+      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 2rem;">
+        Please complete this confidential request. A dedicated Aura Medical Concierge will contact you within 2 business hours.
+      </p>
+
+      <form id="appointment-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-name">Full Patient Name *</label>
+            <input type="text" id="patient-name" class="form-control" placeholder="e.g. Eleanor Vance" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-phone">Phone Number *</label>
+            <input type="tel" id="patient-phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-email">Email Address *</label>
+            <input type="email" id="patient-email" class="form-control" placeholder="patient@example.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-dept">Preferred Department *</label>
+            <select id="patient-dept" class="form-control" required>
+              <option value="Cardiology">Cardiology &amp; Vascular Health</option>
+              <option value="Neurology">Neurology &amp; Neurosurgery</option>
+              <option value="Oncology">Comprehensive Oncology</option>
+              <option value="Orthopedics">Orthopedics &amp; Joint Surgery</option>
+              <option value="Womens Health">Women's &amp; Maternal Health</option>
+              <option value="Pediatrics">Pediatric &amp; Neonatal Care</option>
+              <option value="Executive Health">Executive Health Assessment</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="patient-notes">Clinical Notes (Optional)</label>
+          <textarea id="patient-notes" class="form-control" rows="3" placeholder="Briefly describe your medical concerns..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-forest-pill btn-hover-shine" style="width: 100%; justify-content: center;">
+          <span>Confirm Consultation Request</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+

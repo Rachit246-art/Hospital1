@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="map-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F3EB"/>
+      <stop offset="100%" stop-color="#ECE5D7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#map-bg)"/>
+  
+  <!-- Park & Nature Paths -->
+  <path d="M0,0 Q350,150 500,0 L800,0 L800,180 Q600,280 400,200 Q200,120 0,260 Z" fill="#DDE8E2" opacity="0.8"/>
+  <text x="180" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#2D6B5A" letter-spacing="2">BOTANICAL HEALING GARDENS</text>
+
+  <!-- Campus Streets & Arterials -->
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#FFF" stroke-width="24"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#C5A36A" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="50" y="395" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C795A" letter-spacing="1">WELLNESS WAY (MAIN SANCTUARY ENTRANCE)</text>
+
+  <line x1="320" y1="0" x2="320" y2="500" stroke="#FFF" stroke-width="18"/>
+  <line x1="560" y1="180" x2="560" y2="500" stroke="#FFF" stroke-width="18"/>
+
+  <!-- Hospital Buildings Footprints -->
+  <!-- Main Sanctuary Pavilion -->
+  <rect x="180" y="160" width="220" height="150" rx="14" fill="#102C24" stroke="#C5A36A" stroke-width="2"/>
+  <text x="290" y="235" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="18" font-weight="600" fill="#FAF9F6">MAIN PAVILION</text>
+  <text x="290" y="255" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#C5A36A" letter-spacing="1">SUITES &amp; SURGICAL THEATER</text>
+
+  <!-- Diagnostic Imaging & MRI Pavilion -->
+  <rect x="440" y="180" width="180" height="130" rx="12" fill="#244D41" stroke="#C5A36A" stroke-width="1.5"/>
+  <text x="530" y="245" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="16" font-weight="600" fill="#FAF9F6">DIAGNOSTIC WING</text>
+  <text x="530" y="265" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#C5A36A">3T MRI &amp; SPECTRAL CT</text>
+
+  <!-- Emergency 24/7 Red Cross Portico -->
+  <g transform="translate(140, 240)">
+    <circle cx="0" cy="0" r="18" fill="#C24136"/>
+    <path d="M-8,0 L8,0 M0,-8 L0,8" stroke="#FFF" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="0" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#C24136">24/7 TRAUMA</text>
+  </g>
+
+  <!-- Helipad Marker -->
+  <g transform="translate(680, 80)">
+    <circle cx="0" cy="0" r="30" fill="#102C24" stroke="#C5A36A" stroke-width="2"/>
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#FAF9F6" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#FAF9F6">H</text>
+    <text x="0" y="46" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#102C24">PRIVATE HELIPAD</text>
+  </g>
+
+  <!-- Valet Drop-off Marker -->
+  <g transform="translate(290, 360)">
+    <circle cx="0" cy="0" r="14" fill="#C5A36A"/>
+    <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#102C24">V</text>
+    <text x="0" y="-20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#102C24">VIP VALET</text>
+  </g>
+</svg>
+

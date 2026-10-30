@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ped-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="50%" stop-color="#F5EFE6"/>
+      <stop offset="100%" stop-color="#ECE3D4"/>
+    </linearGradient>
+    <linearGradient id="bear-fur" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C7A5"/>
+      <stop offset="40%" stop-color="#C9A37B"/>
+      <stop offset="80%" stop-color="#A7815B"/>
+      <stop offset="100%" stop-color="#835E3B"/>
+    </linearGradient>
+    <linearGradient id="bear-snout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7EADB"/>
+      <stop offset="100%" stop-color="#E2CCA8"/>
+    </linearGradient>
+    <filter id="shadow-tb" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#102C24" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" fill="url(#ped-bg)"/>
+
+  <!-- Delicate starlight / nursery accents -->
+  <circle cx="300" cy="225" r="160" stroke="#C5A36A" stroke-opacity="0.15" stroke-dasharray="4 4" fill="none"/>
+  <circle cx="300" cy="225" r="195" stroke="#C5A36A" stroke-opacity="0.08" stroke-dasharray="6 6" fill="none"/>
+
+  <!-- Soft Vintage Plush Teddy Bear -->
+  <g filter="url(#shadow-tb)" transform="translate(300, 235) scale(0.95)">
+    <!-- Bear Ears -->
+    <circle cx="-55" cy="-85" r="28" fill="url(#bear-fur)"/>
+    <circle cx="-55" cy="-85" r="17" fill="url(#bear-snout)"/>
+    <circle cx="55" cy="-85" r="28" fill="url(#bear-fur)"/>
+    <circle cx="55" cy="-85" r="17" fill="url(#bear-snout)"/>
+
+    <!-- Bear Body & Paws (Sitting pose) -->
+    <!-- Lower Body -->
+    <ellipse cx="0" cy="70" rx="68" ry="62" fill="url(#bear-fur)"/>
+    <ellipse cx="0" cy="70" rx="45" ry="42" fill="url(#bear-snout)" opacity="0.9"/>
+    
+    <!-- Left & Right Feet Pads -->
+    <ellipse cx="-65" cy="100" rx="28" ry="22" fill="url(#bear-fur)"/>
+    <ellipse cx="-65" cy="100" rx="18" ry="14" fill="url(#bear-snout)"/>
+    <ellipse cx="65" cy="100" rx="28" ry="22" fill="url(#bear-fur)"/>
+    <ellipse cx="65" cy="100" rx="18" ry="14" fill="url(#bear-snout)"/>
+
+    <!-- Left & Right Arms / Hugging Paws -->
+    <ellipse cx="-68" cy="25" rx="24" ry="38" transform="rotate(25 -68 25)" fill="url(#bear-fur)"/>
+    <ellipse cx="68" cy="25" rx="24" ry="38" transform="rotate(-25 68 25)" fill="url(#bear-fur)"/>
+
+    <!-- Bear Head -->
+    <circle cx="0" cy="-35" r="65" fill="url(#bear-fur)"/>
+
+    <!-- Snout Muzzle -->
+    <ellipse cx="0" cy="-22" rx="30" ry="22" fill="url(#bear-snout)"/>
+    
+    <!-- Nose & Mouth (Embroidered Forest Green / Charcoal) -->
+    <ellipse cx="0" cy="-30" rx="10" ry="7" fill="#102C24"/>
+    <path d="M0,-23 L0,-14" stroke="#102C24" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-10,-14 C-5,-9 0,-12 0,-14 C0,-12 5,-9 10,-14" stroke="#102C24" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+
+    <!-- Glass Button Eyes (Warm Chestnut with Light Reflection) -->
+    <circle cx="-25" cy="-45" r="7" fill="#102C24"/>
+    <circle cx="-27" cy="-47" r="2.5" fill="#FAF9F6"/>
+    
+    <circle cx="25" cy="-45" r="7" fill="#102C24"/>
+    <circle cx="23" cy="-47" r="2.5" fill="#FAF9F6"/>
+
+    <!-- Elegant Silk Ribbon Bow at Neck (Champagne Gold) -->
+    <g transform="translate(0, 16)">
+      <!-- Left bow loop -->
+      <path d="M-5,0 C-25,-12 -35,5 -15,10 C-5,10 0,2 -5,0 Z" fill="#C5A36A"/>
+      <!-- Right bow loop -->
+      <path d="M5,0 C25,-12 35,5 15,10 C5,10 0,2 5,0 Z" fill="#C5A36A"/>
+      <!-- Knot -->
+      <ellipse cx="0" cy="2" rx="7" ry="5" fill="#9F7E46"/>
+      <!-- Tails -->
+      <path d="M-3,5 L-12,25 L-5,22 L-2,8" fill="#B89358"/>
+      <path d="M3,5 L12,25 L5,22 L2,8" fill="#B89358"/>
+    </g>
+  </g>
+
+  <text x="50" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="2" fill="#102C24" opacity="0.6">PEDIATRIC &amp; NEONATAL CARE</text>
+  <text x="540" y="55" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#C5A36A">DEPT. 06</text>
+</svg>
+

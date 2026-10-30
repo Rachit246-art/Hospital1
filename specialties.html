@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Specialties &amp; Centers of Excellence | AURA Health</title>
+  <meta name="description" content="Explore Aura's 7 globally accredited clinical institutes: Cardiovascular, Neuroscience, Precision Oncology, Orthopedics, Women's Health, and Pediatrics.">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23102C24'/%3E%3Cpath d='M20 8 L23 16 L31 16 L25 21 L27 29 L20 24 L13 29 L15 21 L9 16 L17 16 Z' fill='%23C5A36A'/%3E%3C/svg%3E">
+</head>
+<body class="page-fade-in">
+
+  <!-- Header -->
+    <!-- ========================================================================
+       TOP NAVIGATION BAR — FLOATING LUXURY INSTRUMENT PANEL
+       ======================================================================== -->
+  <header class="site-header scrolled">
+    <div class="container">
+      <div class="header-container">
+        
+        <!-- Logo & Brand Crest -->
+        <a href="index.html" class="brand-link" aria-label="Aura Healthcare Home">
+          <div class="brand-crest">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+              <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">AURA HEALTH</span>
+            <span class="brand-sub">SANCTUARY OF MEDICINE</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">Our Approach</a></li>
+            <li><a href="specialties.html" class="nav-link active">Specialties</a></li>
+            <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+            <li><a href="patient-care.html" class="nav-link">Patient Care</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Action Buttons & Mobile Hamburger -->
+        <div class="nav-actions">
+          <a href="tel:+18004829000" class="nav-phone-pill" title="24/7 Dedicated Concierge Care Line">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>(800) 482-9000</span>
+          </a>
+
+          <a href="#appointment" class="nav-cta-btn btn-hover-shine" data-open-modal="appointment">
+            <span class="cta-text-full">Book Appointment</span>
+            <span class="cta-text-short">Book</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+
+          <!-- Mobile Menu Hamburger Button -->
+          <button class="mobile-toggle" aria-label="Toggle navigation menu" id="mobile-menu-toggle">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       LUXURY SLIDE-IN MOBILE NAVIGATION DRAWER
+       ======================================================================== -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <a href="index.html" class="brand-link">
+        <div class="brand-crest">
+          <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+            <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+            <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" style="font-size: 1.15rem;">AURA HEALTH</span>
+          <span class="brand-sub" style="font-size: 8px;">SANCTUARY OF MEDICINE</span>
+        </div>
+      </a>
+      <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-nav-body">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-item">
+          <span>Home</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="about.html" class="mobile-nav-item">
+          <span>Our Approach</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="specialties.html" class="mobile-nav-item active">
+          <span>Specialties</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="facilities.html" class="mobile-nav-item">
+          <span>Facilities</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="doctors.html" class="mobile-nav-item">
+          <span>Doctors</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="patient-care.html" class="mobile-nav-item">
+          <span>Patient Care</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+          <span>Contact</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </nav>
+
+      <div class="mobile-nav-footer">
+        <a href="tel:+18004829000" class="mobile-nav-phone">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <div>
+            <div style="font-size: 10px; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">24/7 Concierge Hotline</div>
+            <div style="font-size: 14.5px; font-weight: 700; color: #FAF9F6;">(800) 482-9000</div>
+          </div>
+        </a>
+
+        <a href="#appointment" class="mobile-nav-cta btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+          <span>Schedule Consultation</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+    <!-- ========================================================================
+       CINEMATIC LUXURY INNER PAGE HERO
+       ======================================================================== -->
+  <section class="inner-hero-cinematic">
+    <!-- Atmospheric Photography Background & Dark Emerald Scrim -->
+    <div class="inner-hero-bg">
+      <img 
+        src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?auto=format&fit=crop&w=2200&q=85" 
+        onerror="this.onerror=null; this.src='assets/doctor-tech.svg'" 
+        alt="Advanced Robotic Surgical Suite and Diagnostic Imaging" 
+        class="inner-hero-img"
+      >
+      <div class="inner-hero-scrim"></div>
+      <div class="inner-hero-vignette"></div>
+    </div>
+
+    <div class="container inner-hero-container reveal">
+      <!-- Breadcrumb Pill -->
+      <nav class="breadcrumb-pill" aria-label="Breadcrumb Navigation">
+        <a href="index.html" class="breadcrumb-home">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          <span>Home</span>
+        </a>
+        <span class="breadcrumb-sep">/</span>
+        <span class="breadcrumb-current">Medical Specialties</span>
+      </nav>
+
+      <!-- Glowing Eyebrow Badge -->
+      <div class="inner-hero-badge pulse-badge">
+        <span class="hero-badge-dot"></span>
+        <span>CENTERS OF CLINICAL EXCELLENCE</span>
+      </div>
+
+      <!-- Editorial Title -->
+      <h1 class="inner-hero-title">
+        Comprehensive Care Across Every Stage of Life
+      </h1>
+
+      <!-- Editorial Lead -->
+      <p class="inner-hero-lead">
+        Seven world-renowned clinical institutes integrated under one roof. Our department directors collaborate continuously, ensuring every patient benefits from unified cross-disciplinary expertise.
+      </p>
+
+      <!-- Trust & Key Feature Badges Ribbon -->
+      <div class="inner-hero-ribbon">
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <span>7 Specialized Medical Institutes</span>
+        </div>
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span>Sub-Millimeter AI Navigation</span>
+        </div>
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          <span>Top 1% Global Clinical Outcomes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter Bar & Deep Dives -->
+  <section style="padding: 4rem 0 7rem 0; background-color: var(--bg-ivory);">
+    <div class="container">
+      
+      <!-- Interactive Filter Pills -->
+      <div class="specialty-filter-bar reveal">
+        <button class="filter-pill-btn active" data-specialty-filter="all">All Specialties (6)</button>
+        <button class="filter-pill-btn" data-specialty-filter="cardiology">Cardiology &amp; Heart</button>
+        <button class="filter-pill-btn" data-specialty-filter="neurology">Neurology &amp; Spine</button>
+        <button class="filter-pill-btn" data-specialty-filter="oncology">Comprehensive Oncology</button>
+        <button class="filter-pill-btn" data-specialty-filter="orthopedics">Orthopedics &amp; Joint</button>
+        <button class="filter-pill-btn" data-specialty-filter="womens-health">Women's Health</button>
+        <button class="filter-pill-btn" data-specialty-filter="pediatrics">Pediatric Care</button>
+      </div>
+
+      <!-- DEEP-DIVE 1: CARDIOLOGY -->
+      <article class="specialty-deep-item reveal" data-dept-key="cardiology" id="cardiology">
+        <div class="specialty-deep-media">
+          <img 
+            src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&q=85" 
+            onerror="this.onerror=null; this.src='assets/cardiology.svg'" 
+            alt="Anatomical heart Cardiology" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+          >
+          <div style="position: absolute; bottom: 1.25rem; left: 1.25rem; background: rgba(16,44,36,0.92); color: #FAF9F6; padding: 0.4rem 1rem; border-radius: 9999px; font-size: 11px; font-weight: 700; border: 1px solid var(--gold-accent);">
+            99.4% SURGICAL SUCCESS INDEX
+          </div>
+        </div>
+        <div class="specialty-deep-content">
+          <span class="eyebrow" style="color: var(--gold-muted);">INSTITUTE 01</span>
+          <h2 style="font-family: var(--font-serif); font-size: 2.4rem; color: var(--forest-green); margin-bottom: 0.85rem; line-height: 1.2;">
+            Cardiovascular &amp; Thoracic Surgery Institute
+          </h2>
+          <p style="font-size: 15px; color: var(--text-body); line-height: 1.75; margin-bottom: 1.25rem;">
+            Specializing in sutureless robotic valve reconstruction, transcatheter aortic valve replacement (TAVR), and precision electrophysiology for complex arrhythmias.
+          </p>
+          <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--forest-green);">Key Procedural Capabilities</h4>
+          <ul class="specialty-procedures-list">
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Robotic Mitral Valve Repair</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Transcatheter Aortic Valve (TAVR)</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> 3D Cryoballoon Arrhythmia Ablation</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Off-Pump Coronary Revascularization</li>
+          </ul>
+          <a href="#appointment" class="btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+            <span>Schedule Cardiology Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- DEEP-DIVE 2: NEUROLOGY -->
+      <article class="specialty-deep-item specialty-deep-reverse reveal" data-dept-key="neurology" id="neurology">
+        <div class="specialty-deep-media">
+          <img 
+            src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=85" 
+            onerror="this.onerror=null; this.src='assets/neurology.svg'" 
+            alt="Anatomical brain Neurology" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+          >
+          <div style="position: absolute; bottom: 1.25rem; left: 1.25rem; background: rgba(16,44,36,0.92); color: #FAF9F6; padding: 0.4rem 1rem; border-radius: 9999px; font-size: 11px; font-weight: 700; border: 1px solid var(--gold-accent);">
+            TOP 5 NEUROSURGERY SANCTUARY
+          </div>
+        </div>
+        <div class="specialty-deep-content">
+          <span class="eyebrow" style="color: var(--gold-muted);">INSTITUTE 02</span>
+          <h2 style="font-family: var(--font-serif); font-size: 2.4rem; color: var(--forest-green); margin-bottom: 0.85rem; line-height: 1.2;">
+            Neurology &amp; Complex Spine Sanctuary
+          </h2>
+          <p style="font-size: 15px; color: var(--text-body); line-height: 1.75; margin-bottom: 1.25rem;">
+            Employing intraoperative 3-Tesla functional MRI mapping and precision micro-neurosurgical navigation to treat deep-seated cerebral tumors, Parkinson’s, and complex spinal disorders.
+          </p>
+          <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--forest-green);">Key Procedural Capabilities</h4>
+          <ul class="specialty-procedures-list">
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Deep Brain Stimulation (DBS)</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Intraoperative fMRI Brain Mapping</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Endovascular Aneurysm Coiling</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Artificial Cervical Disc Arthroplasty</li>
+          </ul>
+          <a href="#appointment" class="btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+            <span>Schedule Neurology Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- DEEP-DIVE 3: ONCOLOGY -->
+      <article class="specialty-deep-item reveal" data-dept-key="oncology" id="oncology">
+        <div class="specialty-deep-media">
+          <img 
+            src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=85" 
+            onerror="this.onerror=null; this.src='assets/oncology.svg'" 
+            alt="Comprehensive Oncology ribbon" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+          >
+          <div style="position: absolute; bottom: 1.25rem; left: 1.25rem; background: rgba(16,44,36,0.92); color: #FAF9F6; padding: 0.4rem 1rem; border-radius: 9999px; font-size: 11px; font-weight: 700; border: 1px solid var(--gold-accent);">
+            45 ACTIVE GENOMIC CLINICAL TRIALS
+          </div>
+        </div>
+        <div class="specialty-deep-content">
+          <span class="eyebrow" style="color: var(--gold-muted);">INSTITUTE 03</span>
+          <h2 style="font-family: var(--font-serif); font-size: 2.4rem; color: var(--forest-green); margin-bottom: 0.85rem; line-height: 1.2;">
+            Comprehensive Oncology &amp; Cellular Medicine
+          </h2>
+          <p style="font-size: 15px; color: var(--text-body); line-height: 1.75; margin-bottom: 1.25rem;">
+            Revolutionary cancer care built on liquid biopsy genetic sequencing, CAR-T cell immunotherapy, and sub-millimeter targeted stereotactic radiotherapy that protects healthy tissue.
+          </p>
+          <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--forest-green);">Key Procedural Capabilities</h4>
+          <ul class="specialty-procedures-list">
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> CAR-T Cell Immunotherapy</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Next-Gen DNA Genomic Profiling</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> TrueBeam Stereotactic Radiosurgery</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Personalized Biological Infusions</li>
+          </ul>
+          <a href="#appointment" class="btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+            <span>Schedule Oncology Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- DEEP-DIVE 4: ORTHOPEDICS -->
+      <article class="specialty-deep-item specialty-deep-reverse reveal" data-dept-key="orthopedics" id="orthopedics">
+        <div class="specialty-deep-media">
+          <img 
+            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=85" 
+            onerror="this.onerror=null; this.src='assets/orthopedics.svg'" 
+            alt="Orthopedics anatomical knee" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+          >
+          <div style="position: absolute; bottom: 1.25rem; left: 1.25rem; background: rgba(16,44,36,0.92); color: #FAF9F6; padding: 0.4rem 1rem; border-radius: 9999px; font-size: 11px; font-weight: 700; border: 1px solid var(--gold-accent);">
+            85% RAPID RECOVERY DISCHARGE
+          </div>
+        </div>
+        <div class="specialty-deep-content">
+          <span class="eyebrow" style="color: var(--gold-muted);">INSTITUTE 04</span>
+          <h2 style="font-family: var(--font-serif); font-size: 2.4rem; color: var(--forest-green); margin-bottom: 0.85rem; line-height: 1.2;">
+            Orthopedic Surgery &amp; Joint Reconstruction
+          </h2>
+          <p style="font-size: 15px; color: var(--text-body); line-height: 1.75; margin-bottom: 1.25rem;">
+            Robotic joint replacement with sub-millimeter precision alignment, sports injury biologics, and minimally invasive cartilage restoration for swift return to active movement.
+          </p>
+          <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--forest-green);">Key Procedural Capabilities</h4>
+          <ul class="specialty-procedures-list">
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Mako Robotic Total Knee &amp; Hip</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Autologous Chondrocyte Implantation</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Endoscopic Lumbar Spine Surgery</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Complex Rotator Cuff Reconstruction</li>
+          </ul>
+          <a href="#appointment" class="btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+            <span>Schedule Orthopedic Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- DEEP-DIVE 5: WOMEN'S HEALTH -->
+      <article class="specialty-deep-item reveal" data-dept-key="womens-health" id="womens-health">
+        <div class="specialty-deep-media">
+          <img 
+            src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=85" 
+            onerror="this.onerror=null; this.src='assets/womens-health.svg'" 
+            alt="Women's Health delicate floral" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+          >
+          <div style="position: absolute; bottom: 1.25rem; left: 1.25rem; background: rgba(16,44,36,0.92); color: #FAF9F6; padding: 0.4rem 1rem; border-radius: 9999px; font-size: 11px; font-weight: 700; border: 1px solid var(--gold-accent);">
+            1:1 MIDWIFE &amp; OB CONCIERGE
+          </div>
+        </div>
+        <div class="specialty-deep-content">
+          <span class="eyebrow" style="color: var(--gold-muted);">INSTITUTE 05</span>
+          <h2 style="font-family: var(--font-serif); font-size: 2.4rem; color: var(--forest-green); margin-bottom: 0.85rem; line-height: 1.2;">
+            Women's &amp; Maternal Health Sanctuary
+          </h2>
+          <p style="font-size: 15px; color: var(--text-body); line-height: 1.75; margin-bottom: 1.25rem;">
+            Private residential maternity pavilions with bespoke hydrotherapy birthing tubs, holistic postpartum recovery, and minimally invasive gynecological surgery.
+          </p>
+          <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--forest-green);">Key Procedural Capabilities</h4>
+          <ul class="specialty-procedures-list">
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Private Botanical Birthing Suites</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Robotic Gynecological Myomectomy</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Pre-implantation Genetic Testing</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> High-Risk Maternal-Fetal Care</li>
+          </ul>
+          <a href="#appointment" class="btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+            <span>Schedule Women's Health Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- DEEP-DIVE 6: PEDIATRICS -->
+      <article class="specialty-deep-item specialty-deep-reverse reveal" data-dept-key="pediatrics" id="pediatrics">
+        <div class="specialty-deep-media">
+          <img 
+            src="https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=85" 
+            onerror="this.onerror=null; this.src='assets/pediatrics.svg'" 
+            alt="Pediatrics teddy bear" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+          >
+          <div style="position: absolute; bottom: 1.25rem; left: 1.25rem; background: rgba(16,44,36,0.92); color: #FAF9F6; padding: 0.4rem 1rem; border-radius: 9999px; font-size: 11px; font-weight: 700; border: 1px solid var(--gold-accent);">
+            LEVEL IV NEONATAL ICU
+          </div>
+        </div>
+        <div class="specialty-deep-content">
+          <span class="eyebrow" style="color: var(--gold-muted);">INSTITUTE 06</span>
+          <h2 style="font-family: var(--font-serif); font-size: 2.4rem; color: var(--forest-green); margin-bottom: 0.85rem; line-height: 1.2;">
+            Pediatric &amp; Neonatal Care Pavilion
+          </h2>
+          <p style="font-size: 15px; color: var(--text-body); line-height: 1.75; margin-bottom: 1.25rem;">
+            Designed exclusively for children and families. Gentle, anxiety-free examination suites, specialized pediatric surgery, and 24/7 dedicated Level IV neonatal care.
+          </p>
+          <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--forest-green);">Key Procedural Capabilities</h4>
+          <ul class="specialty-procedures-list">
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Level IV Neonatal Critical Care</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Pediatric Minimally Invasive Surgery</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Congenital Heart Defect Repair</li>
+            <li class="procedure-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C5A36A" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Family Bedside Accommodations</li>
+          </ul>
+          <a href="#appointment" class="btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+            <span>Schedule Pediatric Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <a href="index.html" class="brand-link">
+            <div class="brand-crest">
+              <svg width="34" height="34" viewBox="0 0 36 36" fill="none">
+                <rect width="36" height="36" rx="8" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+                <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title" style="font-size: 1.35rem;">AURA HEALTH</span>
+              <span class="brand-sub">LUXURY HEALTHCARE &amp; RESEARCH</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            A world-class medical sanctuary dedicated to clinical innovation, surgical mastery, and dignified patient-first healing environments.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">Our Approach &amp; Heritage</a></li>
+            <li><a href="specialties.html" class="footer-link">Medical Specialties</a></li>
+            <li><a href="facilities.html" class="footer-link">Hospital Facilities</a></li>
+            <li><a href="doctors.html" class="footer-link">Specialists &amp; Surgeons</a></li>
+            <li><a href="patient-care.html" class="footer-link">Patient Concierge</a></li>
+            <li><a href="contact.html" class="footer-link">Sanctuary Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Centers of Excellence</h4>
+          <ul class="footer-links-list">
+            <li><a href="specialties.html#cardiology" class="footer-link">Cardiology &amp; Vascular</a></li>
+            <li><a href="specialties.html#neurology" class="footer-link">Neurology &amp; Spine</a></li>
+            <li><a href="specialties.html#oncology" class="footer-link">Comprehensive Oncology</a></li>
+            <li><a href="specialties.html#orthopedics" class="footer-link">Orthopedic Surgery</a></li>
+            <li><a href="specialties.html#womens-health" class="footer-link">Women's Health</a></li>
+            <li><a href="specialties.html#pediatrics" class="footer-link">Pediatric Medicine</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Emergency &amp; Concierge</h4>
+          <div class="footer-emergency-box">
+            <div class="footer-emergency-label">24/7 CONCIERGE HOTLINE</div>
+            <a href="tel:+18004829000" class="footer-emergency-phone">+1 (800) 482-9000</a>
+          </div>
+          <p style="font-size: 13.5px; color: var(--text-ivory-dim); line-height: 1.6;">
+            Aura Medical Sanctuary, 750 Wellness Way,<br>
+            Pavilion Central, Boston, MA 02115
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aura Health &amp; Research Sanctuary. All rights reserved. JCI &amp; ISO-9001 Certified.</div>
+        <div class="footer-bottom-links">
+          <a href="contact.html" class="footer-link">Privacy Policy</a>
+          <a href="contact.html" class="footer-link">Patient Rights</a>
+          <a href="contact.html" class="footer-link">Quality Metrics</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Appointment Modal -->
+  <div class="modal-backdrop" id="appointment-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="close-appointment-modal" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="eyebrow">PRIVATE CONSULTATION</span>
+      <h2 id="modal-title" style="font-size: 2.2rem; color: var(--forest-green); margin-bottom: 0.75rem;">Schedule an Appointment</h2>
+      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 2rem;">
+        Please complete this confidential request. A dedicated Aura Medical Concierge will contact you within 2 business hours.
+      </p>
+
+      <form id="appointment-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-name">Full Patient Name *</label>
+            <input type="text" id="patient-name" class="form-control" placeholder="e.g. Eleanor Vance" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-phone">Phone Number *</label>
+            <input type="tel" id="patient-phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-email">Email Address *</label>
+            <input type="email" id="patient-email" class="form-control" placeholder="patient@example.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-dept">Preferred Department *</label>
+            <select id="patient-dept" class="form-control" required>
+              <option value="Cardiology">Cardiology &amp; Vascular Health</option>
+              <option value="Neurology">Neurology &amp; Neurosurgery</option>
+              <option value="Oncology">Comprehensive Oncology</option>
+              <option value="Orthopedics">Orthopedics &amp; Joint Surgery</option>
+              <option value="Womens Health">Women's &amp; Maternal Health</option>
+              <option value="Pediatrics">Pediatric &amp; Neonatal Care</option>
+              <option value="Executive Health">Executive Health Assessment</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="patient-notes">Clinical Notes (Optional)</label>
+          <textarea id="patient-notes" class="form-control" rows="3" placeholder="Briefly describe your medical concerns..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-forest-pill btn-hover-shine" style="width: 100%; justify-content: center;">
+          <span>Confirm Consultation Request</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+

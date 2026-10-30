@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="onco-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="50%" stop-color="#F6EFEA"/>
+      <stop offset="100%" stop-color="#ECE1DB"/>
+    </linearGradient>
+    <linearGradient id="ribbon-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EED5B3"/>
+      <stop offset="35%" stop-color="#C5A36A"/>
+      <stop offset="70%" stop-color="#9E7B47"/>
+      <stop offset="100%" stop-color="#73552C"/>
+    </linearGradient>
+    <linearGradient id="ribbon-lavender" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBD5E8"/>
+      <stop offset="50%" stop-color="#C59EC2"/>
+      <stop offset="100%" stop-color="#966D92"/>
+    </linearGradient>
+    <filter id="shadow-r" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#102C24" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" fill="url(#onco-bg)"/>
+
+  <!-- Subtle ambient radiant circles -->
+  <circle cx="300" cy="215" r="150" stroke="#C5A36A" stroke-opacity="0.2" fill="none" stroke-width="1.2"/>
+  <circle cx="300" cy="215" r="185" stroke="#C5A36A" stroke-opacity="0.1" fill="none" stroke-width="1" stroke-dasharray="5 5"/>
+  <circle cx="300" cy="215" r="90" fill="#C5A36A" fill-opacity="0.05"/>
+
+  <!-- Elegant Silk Ribbon (Gold & Lavender Hybrid - Universal Oncology Awareness) -->
+  <g filter="url(#shadow-r)" transform="translate(300, 215) scale(1.15)">
+    <!-- Back Loop / Fold Shadows -->
+    <path d="M-40,-50 C-45,-100 0,-125 35,-95 C60,-75 35,-30 0,15 C-25,48 -55,85 -80,125 C-75,130 -60,135 -50,130 C-30,100 -5,65 20,30 C45,65 70,100 90,130 C100,135 115,130 120,125 C95,85 65,48 40,15 C5,-30 -20,-75 5,-95 C40,-125 85,-100 80,-50" fill="none"/>
+
+    <!-- Left Leg (Back to Front) -->
+    <path d="M5,-90 C-35,-80 -45,-30 -20,15 L-75,120 L-45,130 L5,35 Z" fill="#8C6E40" opacity="0.8"/>
+    
+    <!-- Top Loop Overlap -->
+    <path d="M-15,-60 C-30,-115 30,-130 50,-85 C65,-50 35,-15 10,25 C-5,45 -30,85 -70,135 L-40,145 C-10,105 15,65 30,40 C45,65 70,105 100,145 L130,135 C90,85 65,45 50,25 C75,-15 110,-50 95,-85 C75,-130 15,-115 0,-60 Z" fill="url(#ribbon-gold)"/>
+
+    <!-- Silk Highlights & Luxury Sheen -->
+    <path d="M12,-110 C-15,-105 -20,-75 -5,-35 C8,-5 35,35 60,75" stroke="#FFF" stroke-width="2.5" fill="none" opacity="0.45" stroke-linecap="round"/>
+    <path d="M68,-110 C95,-105 100,-75 85,-35 C72,-5 45,35 20,75" stroke="#FFE9C4" stroke-width="1.8" fill="none" opacity="0.35" stroke-linecap="round"/>
+    
+    <!-- Center Brooch / Emblem of Hope (Champagne Star) -->
+    <circle cx="40" cy="10" r="10" fill="#102C24"/>
+    <circle cx="40" cy="10" r="8" fill="#C5A36A"/>
+    <path d="M40,4 L42,9 L47,10 L43,13 L44,18 L40,15 L36,18 L37,13 L33,10 L38,9 Z" fill="#FAF9F6"/>
+  </g>
+
+  <text x="50" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="2" fill="#102C24" opacity="0.6">COMPREHENSIVE ONCOLOGY</text>
+  <text x="540" y="55" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#C5A36A">DEPT. 03</text>
+</svg>
+

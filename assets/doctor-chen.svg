@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="doc-bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAE3D5"/>
+      <stop offset="50%" stop-color="#D9CFC0"/>
+      <stop offset="100%" stop-color="#C5B9A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="550" fill="url(#doc-bg1)"/>
+  <!-- Portrait Silhouette: Dr. Adrian Chen -->
+  <g transform="translate(250, 270)">
+    <!-- Coat -->
+    <path d="M-130,280 C-110,130 -80,90 0,90 C80,90 110,130 130,280 Z" fill="#FAF9F6"/>
+    <!-- Collar & Tie -->
+    <path d="M-30,90 L0,140 L30,90 Z" fill="#102C24"/>
+    <polygon points="-8,100 8,100 12,170 0,185 -12,170" fill="#C5A36A"/>
+    <!-- Head & Hair -->
+    <ellipse cx="0" cy="10" rx="65" ry="75" fill="#D9BA9D"/>
+    <path d="M-65,-10 C-65,-75 -30,-85 0,-85 C30,-85 65,-75 65,-10 C45,-60 -45,-60 -65,-10 Z" fill="#1C1815"/>
+    <!-- Glasses -->
+    <rect x="-42" y="0" width="34" height="20" rx="5" fill="none" stroke="#C5A36A" stroke-width="2.5"/>
+    <rect x="8" y="0" width="34" height="20" rx="5" fill="none" stroke="#C5A36A" stroke-width="2.5"/>
+    <line x1="-8" y1="10" x2="8" y2="10" stroke="#C5A36A" stroke-width="2"/>
+  </g>
+  <rect x="20" y="20" width="460" height="510" fill="none" stroke="#C5A36A" stroke-width="1.2" stroke-opacity="0.5"/>
+</svg>
+

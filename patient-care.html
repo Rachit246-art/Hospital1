@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Care &amp; Global Concierge | AURA Health Sanctuary</title>
+  <meta name="description" content="Experience bespoke patient care, international medical concierges, private family suites, and Michelin-grade clinical nutrition at Aura.">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23102C24'/%3E%3Cpath d='M20 8 L23 16 L31 16 L25 21 L27 29 L20 24 L13 29 L15 21 L9 16 L17 16 Z' fill='%23C5A36A'/%3E%3C/svg%3E">
+</head>
+<body class="page-fade-in">
+
+  <!-- Header -->
+    <!-- ========================================================================
+       TOP NAVIGATION BAR — FLOATING LUXURY INSTRUMENT PANEL
+       ======================================================================== -->
+  <header class="site-header scrolled">
+    <div class="container">
+      <div class="header-container">
+        
+        <!-- Logo & Brand Crest -->
+        <a href="index.html" class="brand-link" aria-label="Aura Healthcare Home">
+          <div class="brand-crest">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+              <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">AURA HEALTH</span>
+            <span class="brand-sub">SANCTUARY OF MEDICINE</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">Our Approach</a></li>
+            <li><a href="specialties.html" class="nav-link">Specialties</a></li>
+            <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+            <li><a href="patient-care.html" class="nav-link active">Patient Care</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Action Buttons & Mobile Hamburger -->
+        <div class="nav-actions">
+          <a href="tel:+18004829000" class="nav-phone-pill" title="24/7 Dedicated Concierge Care Line">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>(800) 482-9000</span>
+          </a>
+
+          <a href="#appointment" class="nav-cta-btn btn-hover-shine" data-open-modal="appointment">
+            <span class="cta-text-full">Book Appointment</span>
+            <span class="cta-text-short">Book</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+
+          <!-- Mobile Menu Hamburger Button -->
+          <button class="mobile-toggle" aria-label="Toggle navigation menu" id="mobile-menu-toggle">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       LUXURY SLIDE-IN MOBILE NAVIGATION DRAWER
+       ======================================================================== -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <a href="index.html" class="brand-link">
+        <div class="brand-crest">
+          <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="36" rx="10" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+            <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+            <circle cx="18" cy="18" r="3.5" fill="#FAF9F6"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" style="font-size: 1.15rem;">AURA HEALTH</span>
+          <span class="brand-sub" style="font-size: 8px;">SANCTUARY OF MEDICINE</span>
+        </div>
+      </a>
+      <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-nav-body">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-item">
+          <span>Home</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="about.html" class="mobile-nav-item">
+          <span>Our Approach</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="specialties.html" class="mobile-nav-item">
+          <span>Specialties</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="facilities.html" class="mobile-nav-item">
+          <span>Facilities</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="doctors.html" class="mobile-nav-item">
+          <span>Doctors</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="patient-care.html" class="mobile-nav-item active">
+          <span>Patient Care</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+        <a href="contact.html" class="mobile-nav-item">
+          <span>Contact</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </nav>
+
+      <div class="mobile-nav-footer">
+        <a href="tel:+18004829000" class="mobile-nav-phone">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <div>
+            <div style="font-size: 10px; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">24/7 Concierge Hotline</div>
+            <div style="font-size: 14.5px; font-weight: 700; color: #FAF9F6;">(800) 482-9000</div>
+          </div>
+        </a>
+
+        <a href="#appointment" class="mobile-nav-cta btn-forest-pill btn-hover-shine" data-open-modal="appointment">
+          <span>Schedule Consultation</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+    <!-- ========================================================================
+       CINEMATIC LUXURY INNER PAGE HERO
+       ======================================================================== -->
+  <section class="inner-hero-cinematic">
+    <!-- Atmospheric Photography Background & Dark Emerald Scrim -->
+    <div class="inner-hero-bg">
+      <img 
+        src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=2200&q=85" 
+        onerror="this.onerror=null; this.src='assets/patient-suite.svg'" 
+        alt="Presidential Private Healing Pavilion with terrace" 
+        class="inner-hero-img"
+      >
+      <div class="inner-hero-scrim"></div>
+      <div class="inner-hero-vignette"></div>
+    </div>
+
+    <div class="container inner-hero-container reveal">
+      <!-- Breadcrumb Pill -->
+      <nav class="breadcrumb-pill" aria-label="Breadcrumb Navigation">
+        <a href="index.html" class="breadcrumb-home">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          <span>Home</span>
+        </a>
+        <span class="breadcrumb-sep">/</span>
+        <span class="breadcrumb-current">Patient Care & Concierge</span>
+      </nav>
+
+      <!-- Glowing Eyebrow Badge -->
+      <div class="inner-hero-badge pulse-badge">
+        <span class="hero-badge-dot"></span>
+        <span>FIVE-STAR CONCIERGE CARE</span>
+      </div>
+
+      <!-- Editorial Title -->
+      <h1 class="inner-hero-title">
+        Unrivaled Comfort for Domestic &amp; International Patients
+      </h1>
+
+      <!-- Editorial Lead -->
+      <p class="inner-hero-lead">
+        Healing should be an experience of effortless dignity. From private jet tarmac transfers to personalized culinary nutrition, your dedicated personal care team attends to every comfort.
+      </p>
+
+      <!-- Trust & Key Feature Badges Ribbon -->
+      <div class="inner-hero-ribbon">
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>24/7 Dedicated Care Concierge</span>
+        </div>
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          <span>Private Jet & Tarmac Chauffeur</span>
+        </div>
+        <div class="ribbon-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+          <span>Botanical Terrace Patient Suites</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bento Grid of Concierge Privileges -->
+  <section style="padding: 5rem 0 6rem 0; background-color: var(--bg-ivory);">
+    <div class="container">
+      
+      <div class="bento-concierge-grid stagger-parent">
+        
+        <!-- Bento 1 (Wide): Tarmac & Helipad Access -->
+        <div class="bento-card bento-card-wide">
+          <span class="eyebrow" style="color: var(--gold-muted);">DISCREET TRANSIT</span>
+          <h3 style="font-family: var(--font-serif); font-size: 2rem; color: var(--forest-green); margin-bottom: 0.85rem;">
+            Direct Tarmac Transfer &amp; Private Helipad
+          </h3>
+          <p style="font-size: 15px; color: var(--text-body); line-height: 1.7; margin-bottom: 1.5rem;">
+            For international and high-profile patients, our fleet of private medical vehicles provides seamless airside tarmac reception directly from Logan International or private executive airports, escorting you straight to your suite with zero waiting rooms.
+          </p>
+          <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+            <div><strong style="color: var(--forest-green); font-size: 1.2rem;">24/7</strong><br><span style="font-size: 12px; color: var(--text-muted);">Active Flight Coordination</span></div>
+            <div><strong style="color: var(--forest-green); font-size: 1.2rem;">0 Min</strong><br><span style="font-size: 12px; color: var(--text-muted);">Public Waiting Room Exposure</span></div>
+            <div><strong style="color: var(--forest-green); font-size: 1.2rem;">100%</strong><br><span style="font-size: 12px; color: var(--text-muted);">Confidential Biometric Access</span></div>
+          </div>
+        </div>
+
+        <!-- Bento 2: Executive Culinary Nutrition -->
+        <div class="bento-card">
+          <span class="eyebrow" style="color: var(--gold-muted);">CELLULAR NOURISHMENT</span>
+          <h3 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--forest-green); margin-bottom: 0.75rem;">
+            Michelin-Grade Clinical Dining
+          </h3>
+          <p style="font-size: 14px; color: var(--text-body); line-height: 1.7;">
+            Executive chefs collaborate with our clinical dietitians to curate gourmet anti-inflammatory organic meals tailored to your metabolic recovery plan.
+          </p>
+        </div>
+
+        <!-- Bento 3: Multilingual Care Teams -->
+        <div class="bento-card">
+          <span class="eyebrow" style="color: var(--gold-muted);">GLOBAL EMBASSIES</span>
+          <h3 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--forest-green); margin-bottom: 0.75rem;">
+            14 Languages Fluency
+          </h3>
+          <p style="font-size: 14px; color: var(--text-body); line-height: 1.7;">
+            Medical translation specialists ensure continuous clarity in Arabic, Mandarin, French, Spanish, Japanese, German, and Portuguese throughout every physician consultation.
+          </p>
+        </div>
+
+        <!-- Bento 4: Family Guest Apartments (Forest Highlight) -->
+        <div class="bento-card bento-card-wide bento-card-forest">
+          <span class="eyebrow eyebrow-gold">ACCOMMODATIONS</span>
+          <h3 style="font-family: var(--font-serif); font-size: 2rem; margin-bottom: 0.85rem;">
+            Presidential Adjoining Family Residences
+          </h3>
+          <p style="font-size: 15px; color: var(--text-ivory-dim); line-height: 1.7; margin-bottom: 1.25rem;">
+            Keep loved ones intimately close. Our private inpatient wings offer connecting luxury apartments featuring master suites, private kitchens, executive office desks, and private garden terraces.
+          </p>
+          <a href="#appointment" class="btn-outline-ivory btn-hover-shine" data-open-modal="appointment">
+            <span>Inquire About Presidential Suites</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 2: The 4-Step Patient Journey -->
+  <section style="padding: 6rem 0; background-color: var(--bg-ivory-warm); border-top: 1px solid var(--border-beige); border-bottom: 1px solid var(--border-beige);">
+    <div class="container">
+      <div style="text-align: center; max-width: 780px; margin: 0 auto 3.5rem auto;" class="reveal">
+        <span class="eyebrow">A SEAMLESS CLINICAL PATHWAY</span>
+        <h2 style="font-size: clamp(2.2rem, 3.5vw, 3.2rem); color: var(--forest-green); font-weight: 500;">
+          The Journey of Care at Aura
+        </h2>
+        <p style="font-size: 16px; color: var(--text-body); margin-top: 0.6rem;">
+          From the first remote diagnostic dossier to lifelong follow-through, every step is choreographed around your peace of mind.
+        </p>
+      </div>
+
+      <div class="care-step-row stagger-parent">
+        
+        <div class="care-step-item">
+          <div class="care-step-num">01</div>
+          <h4 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--forest-green); margin-bottom: 0.5rem;">Pre-Arrival Dossier</h4>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6;">
+            Our board chairs review your existing medical scans, coordinate visa letters, and design your customized surgical itinerary before you depart.
+          </p>
+        </div>
+
+        <div class="care-step-item">
+          <div class="care-step-num">02</div>
+          <h4 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--forest-green); margin-bottom: 0.5rem;">Private Reception</h4>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6;">
+            Direct suite arrival, zero paperwork delays, and an unhurried 60-minute intake discussion with your lead attending physician.
+          </p>
+        </div>
+
+        <div class="care-step-item">
+          <div class="care-step-num">03</div>
+          <h4 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--forest-green); margin-bottom: 0.5rem;">Clinical Intervention</h4>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6;">
+            World-class surgical mastery executed in Class-100 clean suites, followed by intensive 1-to-1 nurse-to-patient restorative recovery.
+          </p>
+        </div>
+
+        <div class="care-step-item">
+          <div class="care-step-num">04</div>
+          <h4 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--forest-green); margin-bottom: 0.5rem;">12-Month Tele-Care</h4>
+          <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6;">
+            Continuous biometric monitoring and quarterly video consultations with your surgical director once you return safely home.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Patient Testimonials -->
+  <section style="padding: 7rem 0; background-color: var(--bg-ivory);">
+    <div class="container">
+      <div style="max-width: 720px; margin-bottom: 4rem;" class="reveal">
+        <span class="eyebrow">PATIENT TESTIMONIALS</span>
+        <h2 style="font-size: clamp(2.2rem, 3.5vw, 3.2rem); color: var(--forest-green); font-weight: 500;">
+          Stories of Restored Vitality
+        </h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;" class="stagger-parent">
+        
+        <div style="background: var(--bg-beige-card); border: 1px solid var(--border-beige); border-radius: var(--radius-card); padding: 3rem;">
+          <div style="color: var(--gold-accent); font-size: 1.8rem; margin-bottom: 1rem;">★★★★★</div>
+          <p style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--forest-green); line-height: 1.5; margin-bottom: 1.5rem;">
+            "Dr. Vance and her team repaired my aortic valve robotically. Two weeks later, I was walking through the hospital botanical gardens without pain. It felt like a retreat, not surgery."
+          </p>
+          <strong style="color: var(--forest-green); font-size: 14px;">Lord Alexander Kensington</strong><br>
+          <span style="font-size: 12px; color: var(--text-muted); text-transform: uppercase;">London, United Kingdom • Minimally Invasive Heart Care</span>
+        </div>
+
+        <div style="background: var(--bg-beige-card); border: 1px solid var(--border-beige); border-radius: var(--radius-card); padding: 3rem;">
+          <div style="color: var(--gold-accent); font-size: 1.8rem; margin-bottom: 1rem;">★★★★★</div>
+          <p style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--forest-green); line-height: 1.5; margin-bottom: 1.5rem;">
+            "The international concierge handled our flights, translation, and our private family apartment. When facing a complex neurosurgical diagnosis, Aura gave us absolute calm and confidence."
+          </p>
+          <strong style="color: var(--forest-green); font-size: 14px;">Sophia Al-Mansoor</strong><br>
+          <span style="font-size: 12px; color: var(--text-muted); text-transform: uppercase;">Dubai, UAE • Skull Base Neurosurgery Patient</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <a href="index.html" class="brand-link">
+            <div class="brand-crest">
+              <svg width="34" height="34" viewBox="0 0 36 36" fill="none">
+                <rect width="36" height="36" rx="8" fill="#183F34" stroke="#C5A36A" stroke-width="1.2"/>
+                <path d="M18 6L21.5 13.5L29 14.2L23.2 19.3L25 27L18 22.8L11 27L12.8 19.3L7 14.2L14.5 13.5L18 6Z" fill="#C5A36A"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title" style="font-size: 1.35rem;">AURA HEALTH</span>
+              <span class="brand-sub">LUXURY HEALTHCARE &amp; RESEARCH</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            A world-class medical sanctuary dedicated to clinical innovation, surgical mastery, and dignified patient-first healing environments.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">Our Approach &amp; Heritage</a></li>
+            <li><a href="specialties.html" class="footer-link">Medical Specialties</a></li>
+            <li><a href="facilities.html" class="footer-link">Hospital Facilities</a></li>
+            <li><a href="doctors.html" class="footer-link">Specialists &amp; Surgeons</a></li>
+            <li><a href="patient-care.html" class="footer-link">Patient Concierge</a></li>
+            <li><a href="contact.html" class="footer-link">Sanctuary Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Centers of Excellence</h4>
+          <ul class="footer-links-list">
+            <li><a href="specialties.html#cardiology" class="footer-link">Cardiology &amp; Vascular</a></li>
+            <li><a href="specialties.html#neurology" class="footer-link">Neurology &amp; Spine</a></li>
+            <li><a href="specialties.html#oncology" class="footer-link">Comprehensive Oncology</a></li>
+            <li><a href="specialties.html#orthopedics" class="footer-link">Orthopedic Surgery</a></li>
+            <li><a href="specialties.html#womens-health" class="footer-link">Women's Health</a></li>
+            <li><a href="specialties.html#pediatrics" class="footer-link">Pediatric Medicine</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Emergency &amp; Concierge</h4>
+          <div class="footer-emergency-box">
+            <div class="footer-emergency-label">24/7 CONCIERGE HOTLINE</div>
+            <a href="tel:+18004829000" class="footer-emergency-phone">+1 (800) 482-9000</a>
+          </div>
+          <p style="font-size: 13.5px; color: var(--text-ivory-dim); line-height: 1.6;">
+            Aura Medical Sanctuary, 750 Wellness Way,<br>
+            Pavilion Central, Boston, MA 02115
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aura Health &amp; Research Sanctuary. All rights reserved. JCI &amp; ISO-9001 Certified.</div>
+        <div class="footer-bottom-links">
+          <a href="contact.html" class="footer-link">Privacy Policy</a>
+          <a href="contact.html" class="footer-link">Patient Rights</a>
+          <a href="contact.html" class="footer-link">Quality Metrics</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Appointment Modal -->
+  <div class="modal-backdrop" id="appointment-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="close-appointment-modal" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="eyebrow">PRIVATE CONSULTATION</span>
+      <h2 id="modal-title" style="font-size: 2.2rem; color: var(--forest-green); margin-bottom: 0.75rem;">Schedule an Appointment</h2>
+      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 2rem;">
+        Please complete this confidential request. A dedicated Aura Medical Concierge will contact you within 2 business hours.
+      </p>
+
+      <form id="appointment-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-name">Full Patient Name *</label>
+            <input type="text" id="patient-name" class="form-control" placeholder="e.g. Eleanor Vance" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-phone">Phone Number *</label>
+            <input type="tel" id="patient-phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="patient-email">Email Address *</label>
+            <input type="email" id="patient-email" class="form-control" placeholder="patient@example.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="patient-dept">Preferred Department *</label>
+            <select id="patient-dept" class="form-control" required>
+              <option value="Cardiology">Cardiology &amp; Vascular Health</option>
+              <option value="Neurology">Neurology &amp; Neurosurgery</option>
+              <option value="Oncology">Comprehensive Oncology</option>
+              <option value="Orthopedics">Orthopedics &amp; Joint Surgery</option>
+              <option value="Womens Health">Women's &amp; Maternal Health</option>
+              <option value="Pediatrics">Pediatric &amp; Neonatal Care</option>
+              <option value="Executive Health">Executive Health Assessment</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="patient-notes">Clinical Notes (Optional)</label>
+          <textarea id="patient-notes" class="form-control" rows="3" placeholder="Briefly describe your medical concerns..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-forest-pill btn-hover-shine" style="width: 100%; justify-content: center;">
+          <span>Confirm Consultation Request</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+

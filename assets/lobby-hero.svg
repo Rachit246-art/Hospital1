@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lobby-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D3B36"/>
+      <stop offset="40%" stop-color="#1B2B25"/>
+      <stop offset="100%" stop-color="#0E1B16"/>
+    </linearGradient>
+    <linearGradient id="marble-floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#423A33"/>
+      <stop offset="25%" stop-color="#23201D"/>
+      <stop offset="100%" stop-color="#12100E"/>
+    </linearGradient>
+    <linearGradient id="curved-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE8C2" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#FFD699" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFEED6" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="warm-glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FFDCA8" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#C5A36A" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass-fin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FAF9F6" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="wood-desk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B2E24"/>
+      <stop offset="50%" stop-color="#544336"/>
+      <stop offset="100%" stop-color="#2A2018"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky & Double Height Architectural Ceiling -->
+  <rect width="1920" height="900" fill="url(#lobby-sky)"/>
+  
+  <!-- Architectural Glass Curtain Walls (Double Height Windows with Vistas) -->
+  <g opacity="0.45">
+    <line x1="320" y1="0" x2="320" y2="580" stroke="#FAF9F6" stroke-width="2"/>
+    <line x1="640" y1="0" x2="640" y2="580" stroke="#FAF9F6" stroke-width="2"/>
+    <line x1="960" y1="0" x2="960" y2="580" stroke="#FAF9F6" stroke-width="2"/>
+    <line x1="1280" y1="0" x2="1280" y2="580" stroke="#FAF9F6" stroke-width="2"/>
+    <line x1="1600" y1="0" x2="1600" y2="580" stroke="#FAF9F6" stroke-width="2"/>
+    <!-- Horizontal Mullions -->
+    <line x1="0" y1="180" x2="1920" y2="180" stroke="#FAF9F6" stroke-width="1.5"/>
+    <line x1="0" y1="360" x2="1920" y2="360" stroke="#FAF9F6" stroke-width="1.5"/>
+  </g>
+
+  <!-- Ambient Golden Atrium Light Spill -->
+  <rect width="1920" height="900" fill="url(#warm-glow)"/>
+
+  <!-- Sculptural Curved Lighting Fixture (Suspended from high ceiling) -->
+  <g>
+    <!-- Light Ribbons -->
+    <path d="M200,120 Q560,320 960,140 T1720,180" stroke="url(#curved-light)" stroke-width="14" fill="none" stroke-linecap="round" filter="drop-shadow(0 0 25px #FFD799)"/>
+    <path d="M280,180 Q640,40 1020,240 T1640,110" stroke="url(#curved-light)" stroke-width="10" fill="none" stroke-linecap="round" filter="drop-shadow(0 0 20px #FFC875)"/>
+    <path d="M420,220 Q820,380 1220,160 T1500,280" stroke="url(#curved-light)" stroke-width="6" fill="none" stroke-linecap="round" filter="drop-shadow(0 0 15px #FFE3B3)"/>
+    <!-- Suspension cables -->
+    <line x1="480" y1="0" x2="480" y2="245" stroke="#FAF9F6" stroke-width="1" opacity="0.3"/>
+    <line x1="780" y1="0" x2="780" y2="215" stroke="#FAF9F6" stroke-width="1" opacity="0.3"/>
+    <line x1="1120" y1="0" x2="1120" y2="180" stroke="#FAF9F6" stroke-width="1" opacity="0.3"/>
+    <line x1="1440" y1="0" x2="1440" y2="200" stroke="#FAF9F6" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Polished Marble Flooring with Geometric Reflection Lines -->
+  <polygon points="0,520 1920,520 1920,900 0,900" fill="url(#marble-floor)"/>
+  
+  <!-- Marble Grid Tiles & Reflections -->
+  <g opacity="0.25">
+    <line x1="0" y1="520" x2="960" y2="520" stroke="#C5A36A" stroke-width="1"/>
+    <!-- Perspective floor joints -->
+    <line x1="960" y1="520" x2="0" y2="900" stroke="#E6DFD1" stroke-width="1.5"/>
+    <line x1="960" y1="520" x2="350" y2="900" stroke="#E6DFD1" stroke-width="1.5"/>
+    <line x1="960" y1="520" x2="700" y2="900" stroke="#E6DFD1" stroke-width="1.5"/>
+    <line x1="960" y1="520" x2="1220" y2="900" stroke="#E6DFD1" stroke-width="1.5"/>
+    <line x1="960" y1="520" x2="1570" y2="900" stroke="#E6DFD1" stroke-width="1.5"/>
+    <line x1="960" y1="520" x2="1920" y2="900" stroke="#E6DFD1" stroke-width="1.5"/>
+    <!-- Floor tiles horizontals -->
+    <line x1="0" y1="580" x2="1920" y2="580" stroke="#E6DFD1" stroke-width="1.2"/>
+    <line x1="0" y1="660" x2="1920" y2="660" stroke="#E6DFD1" stroke-width="1.4"/>
+    <line x1="0" y1="770" x2="1920" y2="770" stroke="#E6DFD1" stroke-width="1.6"/>
+  </g>
+
+  <!-- Floor Reflection of Curved Light -->
+  <ellipse cx="960" cy="620" rx="420" ry="25" fill="#FFDAA3" opacity="0.25" filter="blur(15px)"/>
+  <ellipse cx="680" cy="680" rx="280" ry="15" fill="#FFE2B8" opacity="0.2" filter="blur(12px)"/>
+
+  <!-- Elegant Curving Marble & Brass Reception Counter (Center-Left) -->
+  <g transform="translate(680, 480)">
+    <!-- Base plinth -->
+    <path d="M0,70 L560,70 L520,135 L40,135 Z" fill="url(#wood-desk)"/>
+    <!-- Counter body (Warm Crema Marfil with brass strip) -->
+    <path d="M-20,30 Q280,0 580,30 L560,95 Q280,65 0,95 Z" fill="#F4F0E8"/>
+    <!-- Brass trim under counter -->
+    <path d="M-18,48 Q280,18 578,48" stroke="#C5A36A" stroke-width="4" fill="none"/>
+    <!-- Countertop surface -->
+    <ellipse cx="280" cy="28" rx="300" ry="18" fill="#FAF9F6"/>
+    <!-- Subtle desk lamp warm accent -->
+    <line x1="160" y1="28" x2="160" y2="-15" stroke="#C5A36A" stroke-width="3"/>
+    <ellipse cx="160" cy="-15" rx="18" ry="6" fill="#C5A36A"/>
+    <circle cx="160" cy="-10" r="15" fill="#FFECC7" opacity="0.6" filter="blur(5px)"/>
+  </g>
+
+  <!-- Indoor Architectural Ficus / Olive Trees (Left & Right Sanctuary) -->
+  <!-- Left Planter Tree -->
+  <g transform="translate(260, 420)">
+    <!-- Fluted Bronze Planter Pot -->
+    <path d="M-35,130 L35,130 L45,210 L-45,210 Z" fill="#241E1A" stroke="#C5A36A" stroke-width="1.5"/>
+    <ellipse cx="0" cy="130" rx="35" ry="10" fill="#3D342D"/>
+    <!-- Tree Trunk -->
+    <path d="M-4,130 Q-15,40 0,-30 Q10,-90 -8,-150" stroke="#5E4E42" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M-2,30 Q20,-20 30,-90" stroke="#5E4E42" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Canopy Foliage (Lush, architectural) -->
+    <ellipse cx="-20" cy="-160" rx="65" ry="50" fill="#1C382E" opacity="0.95"/>
+    <ellipse cx="15" cy="-140" rx="70" ry="55" fill="#294D40" opacity="0.9"/>
+    <ellipse cx="-10" cy="-110" rx="55" ry="45" fill="#19332A" opacity="0.95"/>
+    <ellipse cx="25" cy="-90" rx="60" ry="40" fill="#3A6354" opacity="0.85"/>
+  </g>
+
+  <!-- Right Planter Tree -->
+  <g transform="translate(1650, 420)">
+    <path d="M-40,120 L40,120 L50,210 L-50,210 Z" fill="#241E1A" stroke="#C5A36A" stroke-width="1.5"/>
+    <ellipse cx="0" cy="120" rx="40" ry="10" fill="#3D342D"/>
+    <!-- Trunk -->
+    <path d="M2,120 Q15,40 5,-40 Q-5,-90 12,-160" stroke="#5E4E42" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M6,20 Q-20,-30 -35,-80" stroke="#5E4E42" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Foliage -->
+    <ellipse cx="10" cy="-170" rx="75" ry="55" fill="#1C382E" opacity="0.95"/>
+    <ellipse cx="-20" cy="-130" rx="70" ry="50" fill="#2B5244" opacity="0.9"/>
+    <ellipse cx="25" cy="-120" rx="60" ry="45" fill="#1A352C" opacity="0.95"/>
+    <ellipse cx="-20" cy="-80" rx="60" ry="40" fill="#3A6354" opacity="0.85"/>
+  </g>
+
+  <!-- Warm Architectural Downlights & Sconces -->
+  <g fill="#FFE9C4" opacity="0.8">
+    <circle cx="200" cy="30" r="3"/>
+    <circle cx="450" cy="30" r="3"/>
+    <circle cx="700" cy="30" r="3"/>
+    <circle cx="950" cy="30" r="3"/>
+    <circle cx="1200" cy="30" r="3"/>
+    <circle cx="1450" cy="30" r="3"/>
+    <circle cx="1700" cy="30" r="3"/>
+  </g>
+
+  <!-- Edge-to-edge Luxury Vignette Overlay -->
+  <rect width="1920" height="900" fill="url(#lobby-sky)" opacity="0.15"/>
+</svg>
+

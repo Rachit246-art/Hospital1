@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="appr-wall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFEAE0"/>
+      <stop offset="50%" stop-color="#DFD8C8"/>
+      <stop offset="100%" stop-color="#C8BEAC"/>
+    </linearGradient>
+    <linearGradient id="sofa-velvet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#244F41"/>
+      <stop offset="60%" stop-color="#15362C"/>
+      <stop offset="100%" stop-color="#0E231C"/>
+    </linearGradient>
+    <linearGradient id="wood-fluted" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5A4739"/>
+      <stop offset="25%" stop-color="#7B6350"/>
+      <stop offset="50%" stop-color="#5A4739"/>
+      <stop offset="75%" stop-color="#7B6350"/>
+      <stop offset="100%" stop-color="#5A4739"/>
+    </linearGradient>
+    <radialGradient id="lamp-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE7BA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFE7BA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Warm Wall with Fluted Architectural Wood Panel Section -->
+  <rect width="800" height="600" fill="url(#appr-wall)"/>
+
+  <!-- Fluted Wood Paneling on Left Wall -->
+  <rect x="0" y="0" width="280" height="600" fill="url(#wood-fluted)"/>
+  <rect x="0" y="0" width="280" height="600" fill="#102C24" opacity="0.1"/>
+
+  <!-- Warm Architectural Cove Lighting in Wall Niche -->
+  <path d="M280,0 L280,600 L320,600 L320,0 Z" fill="#C5A36A" opacity="0.4"/>
+  <line x1="285" y1="0" x2="285" y2="600" stroke="#FFE7BA" stroke-width="4" filter="drop-shadow(0 0 10px #FFD285)"/>
+
+  <!-- Floor: Honed French Limestone -->
+  <polygon points="0,420 800,420 800,600 0,600" fill="#E6DFCFA"/>
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#C5A36A" stroke-width="2" opacity="0.3"/>
+  <line x1="180" y1="420" x2="60" y2="600" stroke="#D1C7B4" stroke-width="1.5"/>
+  <line x1="420" y1="420" x2="360" y2="600" stroke="#D1C7B4" stroke-width="1.5"/>
+  <line x1="680" y1="420" x2="690" y2="600" stroke="#D1C7B4" stroke-width="1.5"/>
+
+  <!-- Deep Forest Green Curved Architectural Lounge Seating (Bespoke curved sofa) -->
+  <g transform="translate(420, 410)">
+    <!-- Shadow -->
+    <ellipse cx="0" cy="55" rx="260" ry="25" fill="#102C24" opacity="0.2" filter="blur(8px)"/>
+    <!-- Sofa Backrest (Curving luxury banquette) -->
+    <path d="M-220,10 C-180,-80 180,-80 220,10 L210,35 C170,-45 -170,-45 -210,35 Z" fill="url(#sofa-velvet)"/>
+    <!-- Cushion Seats -->
+    <path d="M-230,25 C-190,-35 190,-35 230,25 C230,55 190,75 0,75 C-190,75 -230,55 -230,25 Z" fill="#1B4236"/>
+    <!-- Champagne Gold Piping Trim -->
+    <path d="M-228,26 C-188,-33 188,-33 228,26" stroke="#C5A36A" stroke-width="2.5" fill="none"/>
+    <path d="M-228,52 C-188,72 188,72 228,52" stroke="#C5A36A" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <!-- Silk Accent Pillows -->
+    <rect x="-90" y="-15" width="45" height="40" rx="6" transform="rotate(-12 -90 -15)" fill="#FAF9F6"/>
+    <rect x="50" y="-18" width="45" height="40" rx="6" transform="rotate(15 50 -18)" fill="#C5A36A"/>
+  </g>
+
+  <!-- Marble & Brass Cocktail Table in Foreground -->
+  <g transform="translate(420, 500)">
+    <ellipse cx="0" cy="20" rx="110" ry="25" fill="#102C24" opacity="0.15" filter="blur(5px)"/>
+    <!-- Brass stem -->
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#C5A36A" stroke-width="12"/>
+    <ellipse cx="0" cy="20" rx="40" ry="8" fill="#B89358"/>
+    <!-- White Calacatta Marble top -->
+    <ellipse cx="0" cy="0" rx="100" ry="22" fill="#FAF9F6" stroke="#C5A36A" stroke-width="2"/>
+    <!-- Marble vein -->
+    <path d="M-70,0 Q-20,5 30,-5 T85,2" stroke="#D6CEC2" stroke-width="1.8" fill="none"/>
+    <!-- Designer Medical Journal / Art Book -->
+    <polygon points="-30,-4 15,-10 35,4 -10,10" fill="#102C24"/>
+    <polygon points="-28,-5 13,-11 32,3 -9,9" fill="#C5A36A"/>
+  </g>
+
+  <!-- Large Floor Planter with Fiddle Leaf Fig / Bamboo (Right) -->
+  <g transform="translate(710, 360)">
+    <!-- Terracotta / Ceramic Matte Ivory Pot -->
+    <path d="M-40,80 L40,80 L48,170 L-48,170 Z" fill="#F4F0E8" stroke="#D6CBB8" stroke-width="2"/>
+    <!-- Foliage -->
+    <ellipse cx="-15" cy="10" rx="35" ry="55" transform="rotate(-30 -15 10)" fill="#193D31"/>
+    <ellipse cx="25" cy="0" rx="38" ry="60" transform="rotate(25 25 0)" fill="#235242"/>
+    <ellipse cx="0" cy="-60" rx="40" ry="65" fill="#2E6955"/>
+    <ellipse cx="-30" cy="-40" rx="30" ry="50" transform="rotate(-15 -30 -40)" fill="#1B4235"/>
+  </g>
+
+  <!-- Modern Sculptural Ring Pendant Sconce Light (Left ceiling) -->
+  <circle cx="150" cy="180" r="45" fill="none" stroke="#C5A36A" stroke-width="5"/>
+  <circle cx="150" cy="180" r="18" fill="url(#lamp-glow)"/>
+  <line x1="150" y1="0" x2="150" y2="135" stroke="#C5A36A" stroke-width="2"/>
+
+  <!-- Minimalist Wall Signage: "AURA SANCTUARY • SUITE 100" -->
+  <text x="360" y="160" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" letter-spacing="3" fill="#102C24">AURA CLINICAL WING</text>
+  <text x="360" y="185" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" letter-spacing="2" fill="#8C795A">PRIVATE CONSULTATION SUITES</text>
+</svg>
+
