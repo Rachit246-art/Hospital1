@@ -1729,6 +1729,43 @@ h1, h2, h3, h4, .font-serif {
 .footer-bottom-links {
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-repo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(197, 163, 106, 0.08);
+  border: 1px solid rgba(197, 163, 106, 0.3);
+  border-radius: 999px;
+  color: var(--gold-light, #E8D3A7);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.footer-repo-badge:hover {
+  background: rgba(197, 163, 106, 0.2);
+  border-color: var(--gold, #C5A36A);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.footer-github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--gold-light, #E8D3A7) !important;
+}
+
+.footer-github-link:hover {
+  color: #FFFFFF !important;
 }
 
 @media (max-width: 992px) {
