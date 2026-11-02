@@ -1723,7 +1723,47 @@ h1, h2, h3, h4, .font-serif {
   font-size: 13px;
   color: rgba(250, 249, 246, 0.5);
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.25rem;
+}
+
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--text-ivory-dim);
+  font-family: inherit;
+}
+
+.footer-credit .credit-brand {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--gold-accent);
+  text-transform: uppercase;
+}
+
+.footer-credit .credit-divider {
+  color: rgba(250, 249, 246, 0.28);
+  font-weight: 300;
+  margin: 0 4px;
+}
+
+.footer-credit .credit-text {
+  color: var(--text-ivory-dim);
+}
+
+.footer-credit .credit-heart {
+  color: #ff385c;
+  display: inline-block;
+  margin: 0 3px;
+  transform: scale(1.05);
+}
+
+.footer-credit .credit-author {
+  color: #FFFFFF;
+  font-weight: 600;
 }
 
 .footer-bottom-links {
@@ -1775,14 +1815,23 @@ h1, h2, h3, h4, .font-serif {
   }
 }
 
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.15rem;
+  }
+  .footer-bottom-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 580px) {
   .footer-top-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
-  }
-  .footer-bottom {
-    flex-direction: column;
-    align-items: flex-start;
   }
 }
 
@@ -2080,15 +2129,16 @@ h1, h2, h3, h4, .font-serif {
   margin-bottom: 1.25rem;
 }
 
-.inner-hero-title {
+.inner-hero-title,
+.inner-hero-cinematic .inner-hero-title {
   font-family: var(--font-serif);
   font-size: clamp(2.3rem, 4.6vw, 4rem);
   font-weight: 400;
-  color: var(--text-ivory);
+  color: var(--text-ivory) !important;
   line-height: 1.14;
   margin-bottom: 1.25rem;
   max-width: 960px;
-  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.65);
 }
 
 .inner-hero-lead {
@@ -2191,7 +2241,7 @@ h1, h2, h3, h4, .font-serif {
   opacity: 0.5;
 }
 
-.inner-hero-title {
+.inner-hero:not(.inner-hero-cinematic):not(.inner-hero-forest) .inner-hero-title {
   font-size: clamp(2.6rem, 4.8vw, 4.2rem);
   font-weight: 500;
   color: var(--forest-green);
